@@ -43,10 +43,14 @@ An advanced, production-grade **Retrieval-Augmented Generation (RAG)** workspace
 * **Document Parser**: `pdfplumber` (High-fidelity text extractor)
 * **Text Segmenter**: `langchain_text_splitters.RecursiveCharacterTextSplitter`
 
-### Dual-Index Memory Design
-The workspace utilizes two completely isolated, parallel indexes:
-1. **Document Index (Volatile)**: Stores text chunks of the currently uploaded PDF. Cleared upon new uploads.
-2. **Memory Index (Persistent)**: Encodes past conversation turns (user queries + assistant replies) to local storage files (`memory_index.faiss` and `memory_store.json`), serving as a semantic memory layer.
+### Database Architecture & Dual-Index Design
+The workspace utilizes two completely isolated, parallel database layers (RAM-based Document DB and On-Disk Persistent Memory DB) to separate document retrieval from conversational memory:
+
+| Database | What it Stores | Storage Location | Data Type | Lifetime |
+| :--- | :--- | :--- | :--- | :--- |
+| **Document DB** | Uploaded PDF text contents | Temporary RAM (In-Memory) | Dense Vectors & Tokenized Keywords | **Volatile**: Cleared and rebuilt upon new PDF uploads. |
+| **Memory DB** | Chat history (Q&A turns) | `memory_index.faiss` + `memory_store.json` (On-Disk) | Semantic Vectors & JSON text | **Persistent**: Saved on disk; persists across restarts. |
+
 
 ---
 
