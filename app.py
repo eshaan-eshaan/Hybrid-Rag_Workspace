@@ -1187,9 +1187,9 @@ with gr.Blocks(title="Hybrid RAG Workspace", css=custom_css) as demo:
 
 if __name__ == "__main__":
     if "SPACE_ID" in os.environ:
-        # On Hugging Face Spaces, let the platform handle host and port binding
-        print("Running on Hugging Face Spaces...")
-        demo.launch()
+        # Explicitly bind to 0.0.0.0 and port 7860 on Hugging Face Spaces
+        print("Running on Hugging Face Spaces (Port 7860)...")
+        demo.launch(server_name="0.0.0.0", server_port=7860)
     else:
         # Bind to 0.0.0.0 and respect the PORT environment variable for local/Render deployment
         port = int(os.environ.get("PORT", 8080))
