@@ -934,7 +934,7 @@ button.sidebar-nav-btn:hover, .dark button.sidebar-nav-btn:hover {
 """
 
 # Build the Gradio Blocks UI
-with gr.Blocks(title="Hybrid RAG Workspace") as demo:
+with gr.Blocks(title="Hybrid RAG Workspace", css=custom_css) as demo:
     
     with gr.Row():
         gr.HTML(
@@ -1189,9 +1189,9 @@ if __name__ == "__main__":
     if "SPACE_ID" in os.environ:
         # On Hugging Face Spaces, let the platform handle host and port binding
         print("Running on Hugging Face Spaces...")
-        demo.launch(css=custom_css)
+        demo.launch()
     else:
         # Bind to 0.0.0.0 and respect the PORT environment variable for local/Render deployment
         port = int(os.environ.get("PORT", 8080))
         print(f"Running locally on port {port}...")
-        demo.launch(server_name="0.0.0.0", server_port=port, share=False, css=custom_css)
+        demo.launch(server_name="0.0.0.0", server_port=port, share=False)
