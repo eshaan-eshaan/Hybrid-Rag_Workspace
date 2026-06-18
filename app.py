@@ -1186,4 +1186,6 @@ with gr.Blocks(title="Hybrid RAG Workspace") as demo:
     )
 
 if __name__ == "__main__":
-    demo.launch(server_name="127.0.0.1", server_port=8080, share=False, css=custom_css)
+    # Bind to 0.0.0.0 and respect the PORT environment variable for Render/cloud deployment compatibility
+    port = int(os.environ.get("PORT", 8080))
+    demo.launch(server_name="0.0.0.0", server_port=port, share=False, css=custom_css)
