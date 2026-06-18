@@ -1,3 +1,14 @@
+---
+title: Hybrid Rag Workspace
+emoji: 💬
+colorFrom: yellow
+colorTo: gray
+sdk: gradio
+sdk_version: 4.44.0
+app_file: app.py
+pinned: false
+---
+
 # Quick Hopper - Hybrid RAG System
 
 ## 1. Project Description
