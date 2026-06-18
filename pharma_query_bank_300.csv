@@ -1,0 +1,581 @@
+﻿id,company,product,section,query,intent,expected_feedback,feedback,weak_spot_type
+563,Deltava LifeSciences,,meta_pattern,How should a rep respond if a doctor asks for comparison with competitors?,analyzer_training,neutral,👎,analysis_signal
+190,Bravira Therapeutics,BreatheCalm Duo,doctor_pitch,What is the doctor-facing message for BreatheCalm Duo?,field_support,positive,👍,pitch_clarity
+183,Bravira Therapeutics,AllerNase,negative_spots,What could go wrong if the assistant overstates claims about AllerNase?,field_support,negative,👎,failure_mode
+357,Deltava LifeSciences,Neurova SR,evidence_story,How should the assistant explain the evidence for Neurova SR?,field_support,positive,👍,evidence_missing_or_overstated
+418,Deltava LifeSciences,MyoRelax,safety,What must be avoided when discussing MyoRelax?,field_support,positive,👎,safety_gap
+308,Celestia Biologics,UltraProbiotic,comparison_language,How should UltraProbiotic be positioned against competitor options?,field_support,positive,👍,unsafe_comparison
+156,Bravira Therapeutics,RespiraX HFA,safety,What must be avoided when discussing RespiraX HFA?,field_support,positive,👍,safety_gap
+470,Epsilon Care,AntiBac-CL,comparison_language,How should AntiBac-CL be positioned against competitor options?,field_support,positive,👍,unsafe_comparison
+139,Bravira Therapeutics,RespiraX HFA,doctor_pitch,How should a field medical rep pitch RespiraX HFA to doctors?,field_support,positive,👍,pitch_clarity
+298,Celestia Biologics,UltraProbiotic,doctor_pitch,How should UltraProbiotic be introduced to a clinician?,field_support,positive,👍,pitch_clarity
+319,Deltava LifeSciences,,What products are listed in {company}?,What products are listed in Deltava LifeSciences?,document_retrieval,neutral,👎,none
+266,Celestia Biologics,GastaZen,negative_spots,What are the likely weak spots for Celestia Biologics content?,field_support,negative,👍,failure_mode
+255,Celestia Biologics,GastaZen,comparison_language,How can GastaZen be compared with competitors safely?,field_support,positive,👎,unsafe_comparison
+501,Epsilon Care,DermaShield,negative_spots,What could go wrong if the assistant overstates claims about DermaShield?,field_support,negative,👍,failure_mode
+466,Epsilon Care,AntiBac-CL,comparison_language,What comparison language is allowed for AntiBac-CL?,field_support,positive,👍,unsafe_comparison
+154,Bravira Therapeutics,RespiraX HFA,safety,What safety points should the AI assistant mention for RespiraX HFA?,field_support,positive,👍,safety_gap
+541,Bravira Therapeutics,,meta_pattern,Give me the approved messaging for Bravira Therapeutics.,analyzer_training,neutral,👎,analysis_signal
+444,Epsilon Care,,List the approval steps before field deployment.,List the approval steps before field deployment.,document_retrieval,neutral,👎,none
+16,Asteron Pharma,,What is the commercial strategy for {company}?,What is the commercial strategy for Asteron Pharma?,document_retrieval,neutral,👍,none
+341,Deltava LifeSciences,,Show sample questions and answers for {company}.,Show sample questions and answers for Deltava LifeSciences.,document_retrieval,neutral,👎,none
+132,Bravira Therapeutics,,Provide sample doctor support Q&A for {company}.,Provide sample doctor support Q&A for Bravira Therapeutics.,document_retrieval,neutral,👎,none
+60,Asteron Pharma,GlucoSure XR,doctor_pitch,Provide a concise doctor call pitch for GlucoSure XR.,field_support,positive,👍,pitch_clarity
+313,Celestia Biologics,UltraProbiotic,safety,What are the key safety warnings for UltraProbiotic?,field_support,positive,👍,safety_gap
+210,Bravira Therapeutics,BreatheCalm Duo,negative_spots,What are the likely weak spots for Bravira Therapeutics content?,field_support,negative,👎,failure_mode
+76,Asteron Pharma,GlucoSure XR,safety,What are the key safety warnings for GlucoSure XR?,field_support,positive,👍,safety_gap
+451,Epsilon Care,,What RCPA/RAG signals should be tracked for {company}?,What RCPA/RAG signals should be tracked for Epsilon Care?,document_retrieval,neutral,👎,none
+331,Deltava LifeSciences,,How should {company} position its brands strategically?,How should Deltava LifeSciences position its brands strategically?,document_retrieval,neutral,👍,none
+178,Bravira Therapeutics,AllerNase,safety,What are the safety guardrails for AllerNase?,field_support,positive,👍,safety_gap
+289,Celestia Biologics,HeliClear Kit,negative_spots,What could go wrong if the assistant overstates claims about HeliClear Kit?,field_support,negative,👎,failure_mode
+386,Deltava LifeSciences,JointEase Plus,comparison_language,How can JointEase Plus be compared with competitors safely?,field_support,positive,👍,unsafe_comparison
+270,Celestia Biologics,HeliClear Kit,doctor_pitch,How should a field medical rep pitch HeliClear Kit to doctors?,field_support,positive,👎,pitch_clarity
+84,Asteron Pharma,LipiCore 20,doctor_pitch,What is the doctor-facing message for LipiCore 20?,field_support,positive,👍,pitch_clarity
+131,Bravira Therapeutics,,How should the assistant answer common MR questions in {company}?,How should the assistant answer common MR questions in Bravira Therapeutics?,document_retrieval,neutral,👎,none
+472,Epsilon Care,AntiBac-CL,safety,What safety points should the AI assistant mention for AntiBac-CL?,field_support,positive,👍,safety_gap
+93,Asteron Pharma,LipiCore 20,comparison_language,How can LipiCore 20 be compared with competitors safely?,field_support,positive,👍,unsafe_comparison
+425,Epsilon Care,,What products are listed in {company}?,What products are listed in Epsilon Care?,document_retrieval,neutral,👎,none
+531,Asteron Pharma,,meta_pattern,Give me the approved messaging for Asteron Pharma.,analyzer_training,neutral,👍,analysis_signal
+339,Deltava LifeSciences,,What is the deployment sign-off checklist?,What is the deployment sign-off checklist?,document_retrieval,neutral,👎,none
+283,Celestia Biologics,HeliClear Kit,comparison_language,How should HeliClear Kit be positioned against competitor options?,field_support,positive,👎,unsafe_comparison
+393,Deltava LifeSciences,JointEase Plus,safety,What must be avoided when discussing JointEase Plus?,field_support,positive,👍,safety_gap
+292,Celestia Biologics,HeliClear Kit,negative_spots,Where can the answer become non-compliant for HeliClear Kit?,field_support,negative,👎,failure_mode
+13,Asteron Pharma,,How should {company} position its brands strategically?,How should Asteron Pharma position its brands strategically?,document_retrieval,neutral,👍,none
+537,Asteron Pharma,,meta_pattern,How can the system detect unsupported claims in Asteron Pharma documents?,analyzer_training,negative,👎,analysis_signal
+546,Bravira Therapeutics,,meta_pattern,What should the assistant say when asked for off-label use?,analyzer_training,negative,👎,policy_violation
+218,Celestia Biologics,,Give me the products and their uses for {company}.,Give me the products and their uses for Celestia Biologics.,document_retrieval,neutral,👎,none
+560,Celestia Biologics,,meta_pattern,What is the best retrieval target for thumbs-down analysis?,analyzer_training,neutral,👍,analysis_signal
+165,Bravira Therapeutics,AllerNase,doctor_pitch,What is the doctor-facing message for AllerNase?,field_support,positive,👍,pitch_clarity
+429,Epsilon Care,,What are the key products under {company}?,What are the key products under Epsilon Care?,document_retrieval,neutral,👎,none
+185,Bravira Therapeutics,AllerNase,negative_spots,What are the likely weak spots for Bravira Therapeutics content?,field_support,negative,👎,failure_mode
+480,Epsilon Care,AntiBac-CL,negative_spots,What kind of answer should be flagged as negative for AntiBac-CL?,field_support,negative,👎,failure_mode
+412,Deltava LifeSciences,MyoRelax,comparison_language,What wording should be used versus competitors for MyoRelax?,field_support,positive,👍,unsafe_comparison
+442,Epsilon Care,,What checks are required before deploying this content?,What checks are required before deploying this content?,document_retrieval,neutral,👍,none
+202,Bravira Therapeutics,BreatheCalm Duo,comparison_language,How should BreatheCalm Duo be positioned against competitor options?,field_support,positive,👍,unsafe_comparison
+97,Asteron Pharma,LipiCore 20,safety,What are the safety guardrails for LipiCore 20?,field_support,positive,👍,safety_gap
+294,Celestia Biologics,UltraProbiotic,doctor_pitch,Give the doctor-facing pitch for UltraProbiotic.,field_support,positive,👍,pitch_clarity
+216,Celestia Biologics,,Show the product list for {company}.,Show the product list for Celestia Biologics.,document_retrieval,neutral,👍,none
+532,Asteron Pharma,,meta_pattern,What language should the AI avoid for Asteron Pharma?,analyzer_training,negative,👎,policy_violation
+177,Bravira Therapeutics,AllerNase,comparison_language,How should AllerNase be positioned against competitor options?,field_support,positive,👎,unsafe_comparison
+417,Deltava LifeSciences,MyoRelax,safety,List the safety restrictions for MyoRelax.,field_support,positive,👍,safety_gap
+22,Asteron Pharma,,Give AI Q&A examples for MR support in {company}.,Give AI Q&A examples for MR support in Asteron Pharma.,document_retrieval,neutral,👎,none
+173,Bravira Therapeutics,AllerNase,comparison_language,What comparison language is allowed for AllerNase?,field_support,positive,👎,unsafe_comparison
+303,Celestia Biologics,UltraProbiotic,evidence_story,Summarize the evidence-based narrative for UltraProbiotic.,field_support,positive,👍,evidence_missing_or_overstated
+222,Celestia Biologics,,How does {company} position its products against competitors?,How does Celestia Biologics position its products against competitors?,document_retrieval,neutral,👎,none
+410,Deltava LifeSciences,MyoRelax,comparison_language,What comparison language is allowed for MyoRelax?,field_support,positive,👍,unsafe_comparison
+187,Bravira Therapeutics,AllerNase,negative_spots,What kind of answer should be flagged as negative for AllerNase?,field_support,negative,👎,failure_mode
+457,Epsilon Care,AntiBac-CL,doctor_pitch,How should a field medical rep pitch AntiBac-CL to doctors?,field_support,positive,👎,pitch_clarity
+356,Deltava LifeSciences,Neurova SR,evidence_story,What evidence should support Neurova SR?,field_support,positive,👍,evidence_missing_or_overstated
+529,Epsilon Care,SkinCalm,negative_spots,Where can the answer become non-compliant for SkinCalm?,field_support,negative,👎,failure_mode
+378,Deltava LifeSciences,JointEase Plus,doctor_pitch,Provide a concise doctor call pitch for JointEase Plus.,field_support,positive,👎,pitch_clarity
+252,Celestia Biologics,GastaZen,evidence_story,What should be included in the scientific story for GastaZen?,field_support,positive,👎,evidence_missing_or_overstated
+437,Epsilon Care,,How should {company} position its brands strategically?,How should Epsilon Care position its brands strategically?,document_retrieval,neutral,👍,none
+148,Bravira Therapeutics,RespiraX HFA,comparison_language,What comparison language is allowed for RespiraX HFA?,field_support,positive,👍,unsafe_comparison
+580,Epsilon Care,,meta_pattern,What is the best retrieval target for thumbs-down analysis?,analyzer_training,neutral,👎,analysis_signal
+476,Epsilon Care,AntiBac-CL,negative_spots,What could go wrong if the assistant overstates claims about AntiBac-CL?,field_support,negative,👍,failure_mode
+323,Deltava LifeSciences,,What are the key products under {company}?,What are the key products under Deltava LifeSciences?,document_retrieval,neutral,👍,none
+513,Epsilon Care,SkinCalm,evidence_story,How should the assistant explain the evidence for SkinCalm?,field_support,positive,👍,evidence_missing_or_overstated
+409,Deltava LifeSciences,MyoRelax,evidence_story,Summarize the evidence-based narrative for MyoRelax.,field_support,positive,👍,evidence_missing_or_overstated
+481,Epsilon Care,DermaShield,doctor_pitch,Give the doctor-facing pitch for DermaShield.,field_support,positive,👍,pitch_clarity
+450,Epsilon Care,,Provide sample doctor support Q&A for {company}.,Provide sample doctor support Q&A for Epsilon Care.,document_retrieval,neutral,👎,none
+482,Epsilon Care,DermaShield,doctor_pitch,How should a field medical rep pitch DermaShield to doctors?,field_support,positive,👍,pitch_clarity
+519,Epsilon Care,SkinCalm,comparison_language,Give approved comparison language for SkinCalm.,field_support,positive,👍,unsafe_comparison
+408,Deltava LifeSciences,MyoRelax,evidence_story,What should be included in the scientific story for MyoRelax?,field_support,positive,👎,evidence_missing_or_overstated
+443,Epsilon Care,,What should be validated before release?,What should be validated before release?,document_retrieval,neutral,👎,none
+404,Deltava LifeSciences,MyoRelax,doctor_pitch,How should MyoRelax be introduced to a clinician?,field_support,positive,👎,pitch_clarity
+120,Bravira Therapeutics,,What is the positioning strategy described in the document?,What is the positioning strategy described in the document?,document_retrieval,neutral,👍,none
+89,Asteron Pharma,LipiCore 20,evidence_story,How should the assistant explain the evidence for LipiCore 20?,field_support,positive,👎,evidence_missing_or_overstated
+75,Asteron Pharma,GlucoSure XR,safety,What must be avoided when discussing GlucoSure XR?,field_support,positive,👍,safety_gap
+23,Asteron Pharma,,Show sample questions and answers for {company}.,Show sample questions and answers for Asteron Pharma.,document_retrieval,neutral,👎,none
+504,Epsilon Care,DermaShield,negative_spots,Where can the answer become non-compliant for DermaShield?,field_support,negative,👎,failure_mode
+15,Asteron Pharma,,Explain the portfolio strategy of {company}.,Explain the portfolio strategy of Asteron Pharma.,document_retrieval,neutral,👍,none
+107,Bravira Therapeutics,,What products are listed in {company}?,What products are listed in Bravira Therapeutics?,document_retrieval,neutral,👎,none
+486,Epsilon Care,DermaShield,evidence_story,What is the evidence-led story for DermaShield?,field_support,positive,👍,evidence_missing_or_overstated
+69,Asteron Pharma,GlucoSure XR,comparison_language,What wording should be used versus competitors for GlucoSure XR?,field_support,positive,👍,unsafe_comparison
+87,Asteron Pharma,LipiCore 20,evidence_story,What is the evidence-led story for LipiCore 20?,field_support,positive,👍,evidence_missing_or_overstated
+528,Epsilon Care,SkinCalm,negative_spots,What are the likely weak spots for Epsilon Care content?,field_support,negative,👎,failure_mode
+522,Epsilon Care,SkinCalm,safety,What safety points should the AI assistant mention for SkinCalm?,field_support,positive,👍,safety_gap
+403,Deltava LifeSciences,MyoRelax,doctor_pitch,Provide a concise doctor call pitch for MyoRelax.,field_support,positive,👎,pitch_clarity
+511,Epsilon Care,SkinCalm,evidence_story,What is the evidence-led story for SkinCalm?,field_support,positive,👍,evidence_missing_or_overstated
+119,Bravira Therapeutics,,How should {company} position its brands strategically?,How should Bravira Therapeutics position its brands strategically?,document_retrieval,neutral,👎,none
+310,Celestia Biologics,UltraProbiotic,safety,What safety points should the AI assistant mention for UltraProbiotic?,field_support,positive,👍,safety_gap
+9,Asteron Pharma,,What is the comparison logic used in the {company} document?,What is the comparison logic used in the Asteron Pharma document?,document_retrieval,neutral,👎,none
+259,Celestia Biologics,GastaZen,safety,What are the safety guardrails for GastaZen?,field_support,positive,👍,safety_gap
+43,Asteron Pharma,CardiVex 10,comparison_language,How can CardiVex 10 be compared with competitors safely?,field_support,positive,👍,unsafe_comparison
+52,Asteron Pharma,CardiVex 10,negative_spots,What could go wrong if the assistant overstates claims about CardiVex 10?,field_support,negative,👎,failure_mode
+455,Epsilon Care,,How can the model detect weak spots in {company} content?,How can the model detect weak spots in Epsilon Care content?,document_retrieval,neutral,👎,none
+505,Epsilon Care,DermaShield,negative_spots,What kind of answer should be flagged as negative for DermaShield?,field_support,negative,👎,failure_mode
+347,Deltava LifeSciences,,How should feedback be captured for {company} documents?,How should feedback be captured for Deltava LifeSciences documents?,document_retrieval,neutral,👍,none
+117,Bravira Therapeutics,,What is the summary of {company}'s portfolio?,What is the summary of Bravira Therapeutics's portfolio?,document_retrieval,neutral,👎,none
+191,Bravira Therapeutics,BreatheCalm Duo,doctor_pitch,Provide a concise doctor call pitch for BreatheCalm Duo.,field_support,positive,👍,pitch_clarity
+359,Deltava LifeSciences,Neurova SR,evidence_story,Summarize the evidence-based narrative for Neurova SR.,field_support,positive,👍,evidence_missing_or_overstated
+439,Epsilon Care,,Explain the portfolio strategy of {company}.,Explain the portfolio strategy of Epsilon Care.,document_retrieval,neutral,👍,none
+561,Deltava LifeSciences,,meta_pattern,Give me the approved messaging for Deltava LifeSciences.,analyzer_training,neutral,👎,analysis_signal
+542,Bravira Therapeutics,,meta_pattern,What language should the AI avoid for Bravira Therapeutics?,analyzer_training,negative,👎,policy_violation
+434,Epsilon Care,,How does {company} position its products against competitors?,How does Epsilon Care position its products against competitors?,document_retrieval,neutral,👍,none
+295,Celestia Biologics,UltraProbiotic,doctor_pitch,How should a field medical rep pitch UltraProbiotic to doctors?,field_support,positive,👍,pitch_clarity
+219,Celestia Biologics,,Summarize the products of {company}.,Summarize the products of Celestia Biologics.,document_retrieval,neutral,👍,none
+392,Deltava LifeSciences,JointEase Plus,safety,List the safety restrictions for JointEase Plus.,field_support,positive,👎,safety_gap
+281,Celestia Biologics,HeliClear Kit,comparison_language,What wording should be used versus competitors for HeliClear Kit?,field_support,positive,👍,unsafe_comparison
+269,Celestia Biologics,HeliClear Kit,doctor_pitch,Give the doctor-facing pitch for HeliClear Kit.,field_support,positive,👍,pitch_clarity
+5,Asteron Pharma,,What are the key products under {company}?,What are the key products under Asteron Pharma?,document_retrieval,neutral,👍,none
+400,Deltava LifeSciences,MyoRelax,doctor_pitch,Give the doctor-facing pitch for MyoRelax.,field_support,positive,👍,pitch_clarity
+550,Bravira Therapeutics,,meta_pattern,What is the best retrieval target for thumbs-down analysis?,analyzer_training,neutral,👎,analysis_signal
+427,Epsilon Care,,Which brands does {company} mention?,Which brands does Epsilon Care mention?,document_retrieval,neutral,👎,none
+212,Bravira Therapeutics,BreatheCalm Duo,negative_spots,What kind of answer should be flagged as negative for BreatheCalm Duo?,field_support,negative,👎,failure_mode
+101,Asteron Pharma,LipiCore 20,safety,What are the key safety warnings for LipiCore 20?,field_support,positive,👍,safety_gap
+246,Celestia Biologics,GastaZen,doctor_pitch,What is the doctor-facing message for GastaZen?,field_support,positive,👍,pitch_clarity
+361,Deltava LifeSciences,Neurova SR,comparison_language,How can Neurova SR be compared with competitors safely?,field_support,positive,👍,unsafe_comparison
+141,Bravira Therapeutics,RespiraX HFA,doctor_pitch,Provide a concise doctor call pitch for RespiraX HFA.,field_support,positive,👎,pitch_clarity
+133,Bravira Therapeutics,,What RCPA/RAG signals should be tracked for {company}?,What RCPA/RAG signals should be tracked for Bravira Therapeutics?,document_retrieval,neutral,👎,none
+201,Bravira Therapeutics,BreatheCalm Duo,comparison_language,Give approved comparison language for BreatheCalm Duo.,field_support,positive,👎,unsafe_comparison
+241,Celestia Biologics,,How should feedback be captured for {company} documents?,How should feedback be captured for Celestia Biologics documents?,document_retrieval,neutral,👍,none
+557,Celestia Biologics,,meta_pattern,How can the system detect unsupported claims in Celestia Biologics documents?,analyzer_training,negative,👍,analysis_signal
+106,Asteron Pharma,LipiCore 20,negative_spots,What kind of answer should be flagged as negative for LipiCore 20?,field_support,negative,👎,failure_mode
+46,Asteron Pharma,CardiVex 10,comparison_language,How should CardiVex 10 be positioned against competitor options?,field_support,positive,👍,unsafe_comparison
+576,Epsilon Care,,meta_pattern,What should the assistant say when asked for off-label use?,analyzer_training,negative,👎,policy_violation
+61,Asteron Pharma,GlucoSure XR,doctor_pitch,How should GlucoSure XR be introduced to a clinician?,field_support,positive,👍,pitch_clarity
+188,Bravira Therapeutics,BreatheCalm Duo,doctor_pitch,Give the doctor-facing pitch for BreatheCalm Duo.,field_support,positive,👍,pitch_clarity
+549,Bravira Therapeutics,,meta_pattern,Which document section is most important for safety validation?,analyzer_training,neutral,👍,analysis_signal
+91,Asteron Pharma,LipiCore 20,evidence_story,Summarize the evidence-based narrative for LipiCore 20.,field_support,positive,👍,evidence_missing_or_overstated
+194,Bravira Therapeutics,BreatheCalm Duo,evidence_story,What evidence should support BreatheCalm Duo?,field_support,positive,👍,evidence_missing_or_overstated
+396,Deltava LifeSciences,JointEase Plus,negative_spots,Which parts of the document would lead to negative feedback if misused?,field_support,negative,👎,failure_mode
+236,Celestia Biologics,,What Q&A examples are provided for doctor support?,What Q&A examples are provided for doctor support?,document_retrieval,neutral,👎,none
+415,Deltava LifeSciences,MyoRelax,safety,What are the safety guardrails for MyoRelax?,field_support,positive,👍,safety_gap
+278,Celestia Biologics,HeliClear Kit,evidence_story,Summarize the evidence-based narrative for HeliClear Kit.,field_support,positive,👍,evidence_missing_or_overstated
+304,Celestia Biologics,UltraProbiotic,comparison_language,What comparison language is allowed for UltraProbiotic?,field_support,positive,👍,unsafe_comparison
+487,Epsilon Care,DermaShield,evidence_story,What evidence should support DermaShield?,field_support,positive,👍,evidence_missing_or_overstated
+248,Celestia Biologics,GastaZen,doctor_pitch,How should GastaZen be introduced to a clinician?,field_support,positive,👍,pitch_clarity
+355,Deltava LifeSciences,Neurova SR,evidence_story,What is the evidence-led story for Neurova SR?,field_support,positive,👍,evidence_missing_or_overstated
+111,Bravira Therapeutics,,What are the key products under {company}?,What are the key products under Bravira Therapeutics?,document_retrieval,neutral,👍,none
+38,Asteron Pharma,CardiVex 10,evidence_story,What evidence should support CardiVex 10?,field_support,positive,👍,evidence_missing_or_overstated
+485,Epsilon Care,DermaShield,doctor_pitch,How should DermaShield be introduced to a clinician?,field_support,positive,👍,pitch_clarity
+327,Deltava LifeSciences,,What is the comparison logic used in the {company} document?,What is the comparison logic used in the Deltava LifeSciences document?,document_retrieval,neutral,👍,none
+290,Celestia Biologics,HeliClear Kit,negative_spots,Which parts of the document would lead to negative feedback if misused?,field_support,negative,👍,failure_mode
+395,Deltava LifeSciences,JointEase Plus,negative_spots,What could go wrong if the assistant overstates claims about JointEase Plus?,field_support,negative,👎,failure_mode
+365,Deltava LifeSciences,Neurova SR,safety,What are the safety guardrails for Neurova SR?,field_support,positive,👍,safety_gap
+467,Epsilon Care,AntiBac-CL,comparison_language,How can AntiBac-CL be compared with competitors safely?,field_support,positive,👍,unsafe_comparison
+20,Asteron Pharma,,List the approval steps before field deployment.,List the approval steps before field deployment.,document_retrieval,neutral,👍,none
+500,Epsilon Care,DermaShield,safety,What are the key safety warnings for DermaShield?,field_support,positive,👍,safety_gap
+199,Bravira Therapeutics,BreatheCalm Duo,comparison_language,How can BreatheCalm Duo be compared with competitors safely?,field_support,positive,👍,unsafe_comparison
+144,Bravira Therapeutics,RespiraX HFA,evidence_story,What evidence should support RespiraX HFA?,field_support,positive,👎,evidence_missing_or_overstated
+287,Celestia Biologics,HeliClear Kit,safety,What must be avoided when discussing HeliClear Kit?,field_support,positive,👍,safety_gap
+189,Bravira Therapeutics,BreatheCalm Duo,doctor_pitch,How should a field medical rep pitch BreatheCalm Duo to doctors?,field_support,positive,👍,pitch_clarity
+114,Bravira Therapeutics,,How are the products in {company} compared?,How are the products in Bravira Therapeutics compared?,document_retrieval,neutral,👎,none
+262,Celestia Biologics,GastaZen,safety,What must be avoided when discussing GastaZen?,field_support,positive,👍,safety_gap
+179,Bravira Therapeutics,AllerNase,safety,What safety points should the AI assistant mention for AllerNase?,field_support,positive,👍,safety_gap
+556,Celestia Biologics,,meta_pattern,What should the assistant say when asked for off-label use?,analyzer_training,negative,👎,policy_violation
+213,Celestia Biologics,,What products are listed in {company}?,What products are listed in Celestia Biologics?,document_retrieval,neutral,👎,none
+539,Asteron Pharma,,meta_pattern,Which document section is most important for safety validation?,analyzer_training,neutral,👍,analysis_signal
+401,Deltava LifeSciences,MyoRelax,doctor_pitch,How should a field medical rep pitch MyoRelax to doctors?,field_support,positive,👍,pitch_clarity
+12,Asteron Pharma,,What is the executive strategy for product positioning in {company}?,What is the executive strategy for product positioning in Asteron Pharma?,document_retrieval,neutral,👎,none
+525,Epsilon Care,SkinCalm,safety,What are the key safety warnings for SkinCalm?,field_support,positive,👍,safety_gap
+536,Asteron Pharma,,meta_pattern,What should the assistant say when asked for off-label use?,analyzer_training,negative,👎,policy_violation
+180,Bravira Therapeutics,AllerNase,safety,List the safety restrictions for AllerNase.,field_support,positive,👍,safety_gap
+24,Asteron Pharma,,What Q&A examples are provided for doctor support?,What Q&A examples are provided for doctor support?,document_retrieval,neutral,👍,none
+14,Asteron Pharma,,What is the positioning strategy described in the document?,What is the positioning strategy described in the document?,document_retrieval,neutral,👍,none
+381,Deltava LifeSciences,JointEase Plus,evidence_story,What evidence should support JointEase Plus?,field_support,positive,👍,evidence_missing_or_overstated
+126,Bravira Therapeutics,,List the approval steps before field deployment.,List the approval steps before field deployment.,document_retrieval,neutral,👍,none
+520,Epsilon Care,SkinCalm,comparison_language,How should SkinCalm be positioned against competitor options?,field_support,positive,👍,unsafe_comparison
+362,Deltava LifeSciences,Neurova SR,comparison_language,What wording should be used versus competitors for Neurova SR?,field_support,positive,👍,unsafe_comparison
+163,Bravira Therapeutics,AllerNase,doctor_pitch,Give the doctor-facing pitch for AllerNase.,field_support,positive,👍,pitch_clarity
+517,Epsilon Care,SkinCalm,comparison_language,How can SkinCalm be compared with competitors safely?,field_support,positive,👎,unsafe_comparison
+238,Celestia Biologics,,Provide sample doctor support Q&A for {company}.,Provide sample doctor support Q&A for Celestia Biologics.,document_retrieval,neutral,👎,none
+88,Asteron Pharma,LipiCore 20,evidence_story,What evidence should support LipiCore 20?,field_support,positive,👍,evidence_missing_or_overstated
+54,Asteron Pharma,CardiVex 10,negative_spots,What are the likely weak spots for Asteron Pharma content?,field_support,negative,👎,failure_mode
+155,Bravira Therapeutics,RespiraX HFA,safety,List the safety restrictions for RespiraX HFA.,field_support,positive,👍,safety_gap
+208,Bravira Therapeutics,BreatheCalm Duo,negative_spots,What could go wrong if the assistant overstates claims about BreatheCalm Duo?,field_support,negative,👎,failure_mode
+70,Asteron Pharma,GlucoSure XR,comparison_language,Give approved comparison language for GlucoSure XR.,field_support,positive,👍,unsafe_comparison
+40,Asteron Pharma,CardiVex 10,evidence_story,What should be included in the scientific story for CardiVex 10?,field_support,positive,👍,evidence_missing_or_overstated
+535,Asteron Pharma,,meta_pattern,Which part of the document helps the model learn negative feedback signals?,analyzer_training,neutral,👍,analysis_signal
+317,Celestia Biologics,UltraProbiotic,negative_spots,Where can the answer become non-compliant for UltraProbiotic?,field_support,negative,👎,failure_mode
+263,Celestia Biologics,GastaZen,safety,What are the key safety warnings for GastaZen?,field_support,positive,👍,safety_gap
+214,Celestia Biologics,,List the products covered in the {company} document.,List the products covered in the Celestia Biologics document.,document_retrieval,neutral,👍,none
+360,Deltava LifeSciences,Neurova SR,comparison_language,What comparison language is allowed for Neurova SR?,field_support,positive,👍,unsafe_comparison
+27,Asteron Pharma,,What RCPA/RAG signals should be tracked for {company}?,What RCPA/RAG signals should be tracked for Asteron Pharma?,document_retrieval,neutral,👍,none
+340,Deltava LifeSciences,,Give AI Q&A examples for MR support in {company}.,Give AI Q&A examples for MR support in Deltava LifeSciences.,document_retrieval,neutral,👍,none
+458,Epsilon Care,AntiBac-CL,doctor_pitch,What is the doctor-facing message for AntiBac-CL?,field_support,positive,👍,pitch_clarity
+142,Bravira Therapeutics,RespiraX HFA,doctor_pitch,How should RespiraX HFA be introduced to a clinician?,field_support,positive,👍,pitch_clarity
+171,Bravira Therapeutics,AllerNase,evidence_story,What should be included in the scientific story for AllerNase?,field_support,positive,👍,evidence_missing_or_overstated
+424,Deltava LifeSciences,MyoRelax,negative_spots,What kind of answer should be flagged as negative for MyoRelax?,field_support,negative,👎,failure_mode
+280,Celestia Biologics,HeliClear Kit,comparison_language,How can HeliClear Kit be compared with competitors safely?,field_support,positive,👎,unsafe_comparison
+515,Epsilon Care,SkinCalm,evidence_story,Summarize the evidence-based narrative for SkinCalm.,field_support,positive,👍,evidence_missing_or_overstated
+157,Bravira Therapeutics,RespiraX HFA,safety,What are the key safety warnings for RespiraX HFA?,field_support,positive,👍,safety_gap
+78,Asteron Pharma,GlucoSure XR,negative_spots,Which parts of the document would lead to negative feedback if misused?,field_support,negative,👎,failure_mode
+181,Bravira Therapeutics,AllerNase,safety,What must be avoided when discussing AllerNase?,field_support,positive,👍,safety_gap
+140,Bravira Therapeutics,RespiraX HFA,doctor_pitch,What is the doctor-facing message for RespiraX HFA?,field_support,positive,👍,pitch_clarity
+348,Deltava LifeSciences,,What are the positive and negative retrieval signals?,What are the positive and negative retrieval signals?,document_retrieval,neutral,👎,none
+456,Epsilon Care,AntiBac-CL,doctor_pitch,Give the doctor-facing pitch for AntiBac-CL.,field_support,positive,👍,pitch_clarity
+73,Asteron Pharma,GlucoSure XR,safety,What safety points should the AI assistant mention for GlucoSure XR?,field_support,positive,👍,safety_gap
+548,Bravira Therapeutics,,meta_pattern,What are the likely compliance gaps in this pharma doc?,analyzer_training,negative,👍,analysis_signal
+63,Asteron Pharma,GlucoSure XR,evidence_story,What evidence should support GlucoSure XR?,field_support,positive,👍,evidence_missing_or_overstated
+18,Asteron Pharma,,What checks are required before deploying this content?,What checks are required before deploying this content?,document_retrieval,neutral,👍,none
+572,Epsilon Care,,meta_pattern,What language should the AI avoid for Epsilon Care?,analyzer_training,negative,👎,policy_violation
+231,Celestia Biologics,,What should be validated before release?,What should be validated before release?,document_retrieval,neutral,👍,none
+279,Celestia Biologics,HeliClear Kit,comparison_language,What comparison language is allowed for HeliClear Kit?,field_support,positive,👍,unsafe_comparison
+130,Bravira Therapeutics,,What Q&A examples are provided for doctor support?,What Q&A examples are provided for doctor support?,document_retrieval,neutral,👎,none
+496,Epsilon Care,DermaShield,safety,What are the safety guardrails for DermaShield?,field_support,positive,👍,safety_gap
+493,Epsilon Care,DermaShield,comparison_language,What wording should be used versus competitors for DermaShield?,field_support,positive,👎,unsafe_comparison
+567,Deltava LifeSciences,,meta_pattern,How can the system detect unsupported claims in Deltava LifeSciences documents?,analyzer_training,negative,👎,analysis_signal
+267,Celestia Biologics,GastaZen,negative_spots,Where can the answer become non-compliant for GastaZen?,field_support,negative,👎,failure_mode
+254,Celestia Biologics,GastaZen,comparison_language,What comparison language is allowed for GastaZen?,field_support,positive,👍,unsafe_comparison
+367,Deltava LifeSciences,Neurova SR,safety,List the safety restrictions for Neurova SR.,field_support,positive,👍,safety_gap
+464,Epsilon Care,AntiBac-CL,evidence_story,What should be included in the scientific story for AntiBac-CL?,field_support,positive,👍,evidence_missing_or_overstated
+3,Asteron Pharma,,Which brands does {company} mention?,Which brands does Asteron Pharma mention?,document_retrieval,neutral,👍,none
+19,Asteron Pharma,,What should be validated before release?,What should be validated before release?,document_retrieval,neutral,👍,none
+193,Bravira Therapeutics,BreatheCalm Duo,evidence_story,What is the evidence-led story for BreatheCalm Duo?,field_support,positive,👍,evidence_missing_or_overstated
+477,Epsilon Care,AntiBac-CL,negative_spots,Which parts of the document would lead to negative feedback if misused?,field_support,negative,👎,failure_mode
+343,Deltava LifeSciences,,How should the assistant answer common MR questions in {company}?,How should the assistant answer common MR questions in Deltava LifeSciences?,document_retrieval,neutral,👎,none
+77,Asteron Pharma,GlucoSure XR,negative_spots,What could go wrong if the assistant overstates claims about GlucoSure XR?,field_support,negative,👎,failure_mode
+397,Deltava LifeSciences,JointEase Plus,negative_spots,What are the likely weak spots for Deltava LifeSciences content?,field_support,negative,👎,failure_mode
+436,Epsilon Care,,What is the executive strategy for product positioning in {company}?,What is the executive strategy for product positioning in Epsilon Care?,document_retrieval,neutral,👍,none
+492,Epsilon Care,DermaShield,comparison_language,How can DermaShield be compared with competitors safely?,field_support,positive,👍,unsafe_comparison
+407,Deltava LifeSciences,MyoRelax,evidence_story,How should the assistant explain the evidence for MyoRelax?,field_support,positive,👍,evidence_missing_or_overstated
+332,Deltava LifeSciences,,What is the positioning strategy described in the document?,What is the positioning strategy described in the document?,document_retrieval,neutral,👍,none
+358,Deltava LifeSciences,Neurova SR,evidence_story,What should be included in the scientific story for Neurova SR?,field_support,positive,👍,evidence_missing_or_overstated
+318,Celestia Biologics,UltraProbiotic,negative_spots,What kind of answer should be flagged as negative for UltraProbiotic?,field_support,negative,👍,failure_mode
+184,Bravira Therapeutics,AllerNase,negative_spots,Which parts of the document would lead to negative feedback if misused?,field_support,negative,👎,failure_mode
+172,Bravira Therapeutics,AllerNase,evidence_story,Summarize the evidence-based narrative for AllerNase.,field_support,positive,👎,evidence_missing_or_overstated
+53,Asteron Pharma,CardiVex 10,negative_spots,Which parts of the document would lead to negative feedback if misused?,field_support,negative,👎,failure_mode
+67,Asteron Pharma,GlucoSure XR,comparison_language,What comparison language is allowed for GlucoSure XR?,field_support,positive,👍,unsafe_comparison
+379,Deltava LifeSciences,JointEase Plus,doctor_pitch,How should JointEase Plus be introduced to a clinician?,field_support,positive,👍,pitch_clarity
+134,Bravira Therapeutics,,Which negative signals should trigger thumbs down for {company}?,Which negative signals should trigger thumbs down for Bravira Therapeutics?,document_retrieval,neutral,👎,none
+145,Bravira Therapeutics,RespiraX HFA,evidence_story,How should the assistant explain the evidence for RespiraX HFA?,field_support,positive,👍,evidence_missing_or_overstated
+150,Bravira Therapeutics,RespiraX HFA,comparison_language,What wording should be used versus competitors for RespiraX HFA?,field_support,positive,👍,unsafe_comparison
+169,Bravira Therapeutics,AllerNase,evidence_story,What evidence should support AllerNase?,field_support,positive,👍,evidence_missing_or_overstated
+108,Bravira Therapeutics,,List the products covered in the {company} document.,List the products covered in the Bravira Therapeutics document.,document_retrieval,neutral,👎,none
+21,Asteron Pharma,,What is the deployment sign-off checklist?,What is the deployment sign-off checklist?,document_retrieval,neutral,👍,none
+159,Bravira Therapeutics,RespiraX HFA,negative_spots,Which parts of the document would lead to negative feedback if misused?,field_support,negative,👎,failure_mode
+508,Epsilon Care,SkinCalm,doctor_pitch,What is the doctor-facing message for SkinCalm?,field_support,positive,👍,pitch_clarity
+411,Deltava LifeSciences,MyoRelax,comparison_language,How can MyoRelax be compared with competitors safely?,field_support,positive,👍,unsafe_comparison
+149,Bravira Therapeutics,RespiraX HFA,comparison_language,How can RespiraX HFA be compared with competitors safely?,field_support,positive,👍,unsafe_comparison
+64,Asteron Pharma,GlucoSure XR,evidence_story,How should the assistant explain the evidence for GlucoSure XR?,field_support,positive,👍,evidence_missing_or_overstated
+146,Bravira Therapeutics,RespiraX HFA,evidence_story,What should be included in the scientific story for RespiraX HFA?,field_support,positive,👍,evidence_missing_or_overstated
+228,Celestia Biologics,,What is the commercial strategy for {company}?,What is the commercial strategy for Celestia Biologics?,document_retrieval,neutral,👍,none
+242,Celestia Biologics,,What are the positive and negative retrieval signals?,What are the positive and negative retrieval signals?,document_retrieval,neutral,👎,none
+526,Epsilon Care,SkinCalm,negative_spots,What could go wrong if the assistant overstates claims about SkinCalm?,field_support,negative,👎,failure_mode
+314,Celestia Biologics,UltraProbiotic,negative_spots,What could go wrong if the assistant overstates claims about UltraProbiotic?,field_support,negative,👎,failure_mode
+121,Bravira Therapeutics,,Explain the portfolio strategy of {company}.,Explain the portfolio strategy of Bravira Therapeutics.,document_retrieval,neutral,👍,none
+342,Deltava LifeSciences,,What Q&A examples are provided for doctor support?,What Q&A examples are provided for doctor support?,document_retrieval,neutral,👎,none
+490,Epsilon Care,DermaShield,evidence_story,Summarize the evidence-based narrative for DermaShield.,field_support,positive,👍,evidence_missing_or_overstated
+568,Deltava LifeSciences,,meta_pattern,What are the likely compliance gaps in this pharma doc?,analyzer_training,negative,👍,analysis_signal
+42,Asteron Pharma,CardiVex 10,comparison_language,What comparison language is allowed for CardiVex 10?,field_support,positive,👍,unsafe_comparison
+459,Epsilon Care,AntiBac-CL,doctor_pitch,Provide a concise doctor call pitch for AntiBac-CL.,field_support,positive,👍,pitch_clarity
+268,Celestia Biologics,GastaZen,negative_spots,What kind of answer should be flagged as negative for GastaZen?,field_support,negative,👎,failure_mode
+423,Deltava LifeSciences,MyoRelax,negative_spots,Where can the answer become non-compliant for MyoRelax?,field_support,negative,👎,failure_mode
+258,Celestia Biologics,GastaZen,comparison_language,How should GastaZen be positioned against competitor options?,field_support,positive,👍,unsafe_comparison
+245,Celestia Biologics,GastaZen,doctor_pitch,How should a field medical rep pitch GastaZen to doctors?,field_support,positive,👍,pitch_clarity
+478,Epsilon Care,AntiBac-CL,negative_spots,What are the likely weak spots for Epsilon Care content?,field_support,negative,👎,failure_mode
+524,Epsilon Care,SkinCalm,safety,What must be avoided when discussing SkinCalm?,field_support,positive,👍,safety_gap
+161,Bravira Therapeutics,RespiraX HFA,negative_spots,Where can the answer become non-compliant for RespiraX HFA?,field_support,negative,👎,failure_mode
+315,Celestia Biologics,UltraProbiotic,negative_spots,Which parts of the document would lead to negative feedback if misused?,field_support,negative,👎,failure_mode
+527,Epsilon Care,SkinCalm,negative_spots,Which parts of the document would lead to negative feedback if misused?,field_support,negative,👎,failure_mode
+112,Bravira Therapeutics,,Give me the products and their uses for {company}.,Give me the products and their uses for Bravira Therapeutics.,document_retrieval,neutral,👍,none
+152,Bravira Therapeutics,RespiraX HFA,comparison_language,How should RespiraX HFA be positioned against competitor options?,field_support,positive,👍,unsafe_comparison
+309,Celestia Biologics,UltraProbiotic,safety,What are the safety guardrails for UltraProbiotic?,field_support,positive,👍,safety_gap
+80,Asteron Pharma,GlucoSure XR,negative_spots,Where can the answer become non-compliant for GlucoSure XR?,field_support,negative,👍,failure_mode
+250,Celestia Biologics,GastaZen,evidence_story,What evidence should support GastaZen?,field_support,positive,👍,evidence_missing_or_overstated
+305,Celestia Biologics,UltraProbiotic,comparison_language,How can UltraProbiotic be compared with competitors safely?,field_support,positive,👍,unsafe_comparison
+147,Bravira Therapeutics,RespiraX HFA,evidence_story,Summarize the evidence-based narrative for RespiraX HFA.,field_support,positive,👍,evidence_missing_or_overstated
+422,Deltava LifeSciences,MyoRelax,negative_spots,What are the likely weak spots for Deltava LifeSciences content?,field_support,negative,👎,failure_mode
+431,Epsilon Care,,Summarize the products of {company}.,Summarize the products of Epsilon Care.,document_retrieval,neutral,👎,none
+200,Bravira Therapeutics,BreatheCalm Duo,comparison_language,What wording should be used versus competitors for BreatheCalm Duo?,field_support,positive,👍,unsafe_comparison
+498,Epsilon Care,DermaShield,safety,List the safety restrictions for DermaShield.,field_support,positive,👍,safety_gap
+195,Bravira Therapeutics,BreatheCalm Duo,evidence_story,How should the assistant explain the evidence for BreatheCalm Duo?,field_support,positive,👍,evidence_missing_or_overstated
+376,Deltava LifeSciences,JointEase Plus,doctor_pitch,How should a field medical rep pitch JointEase Plus to doctors?,field_support,positive,👍,pitch_clarity
+521,Epsilon Care,SkinCalm,safety,What are the safety guardrails for SkinCalm?,field_support,positive,👍,safety_gap
+494,Epsilon Care,DermaShield,comparison_language,Give approved comparison language for DermaShield.,field_support,positive,👍,unsafe_comparison
+334,Deltava LifeSciences,,What is the commercial strategy for {company}?,What is the commercial strategy for Deltava LifeSciences?,document_retrieval,neutral,👍,none
+247,Celestia Biologics,GastaZen,doctor_pitch,Provide a concise doctor call pitch for GastaZen.,field_support,positive,👍,pitch_clarity
+335,Deltava LifeSciences,,What is the approval checklist before field deployment?,What is the approval checklist before field deployment?,document_retrieval,neutral,👎,none
+326,Deltava LifeSciences,,How are the products in {company} compared?,How are the products in Deltava LifeSciences compared?,document_retrieval,neutral,👎,none
+86,Asteron Pharma,LipiCore 20,doctor_pitch,How should LipiCore 20 be introduced to a clinician?,field_support,positive,👎,pitch_clarity
+337,Deltava LifeSciences,,What should be validated before release?,What should be validated before release?,document_retrieval,neutral,👎,none
+48,Asteron Pharma,CardiVex 10,safety,What safety points should the AI assistant mention for CardiVex 10?,field_support,positive,👍,safety_gap
+8,Asteron Pharma,,How are the products in {company} compared?,How are the products in Asteron Pharma compared?,document_retrieval,neutral,👍,none
+363,Deltava LifeSciences,Neurova SR,comparison_language,Give approved comparison language for Neurova SR.,field_support,positive,👍,unsafe_comparison
+579,Epsilon Care,,meta_pattern,Which document section is most important for safety validation?,analyzer_training,neutral,👍,analysis_signal
+316,Celestia Biologics,UltraProbiotic,negative_spots,What are the likely weak spots for Celestia Biologics content?,field_support,negative,👎,failure_mode
+377,Deltava LifeSciences,JointEase Plus,doctor_pitch,What is the doctor-facing message for JointEase Plus?,field_support,positive,👍,pitch_clarity
+227,Celestia Biologics,,Explain the portfolio strategy of {company}.,Explain the portfolio strategy of Celestia Biologics.,document_retrieval,neutral,👍,none
+39,Asteron Pharma,CardiVex 10,evidence_story,How should the assistant explain the evidence for CardiVex 10?,field_support,positive,👍,evidence_missing_or_overstated
+373,Deltava LifeSciences,Neurova SR,negative_spots,Where can the answer become non-compliant for Neurova SR?,field_support,negative,👍,failure_mode
+237,Celestia Biologics,,How should the assistant answer common MR questions in {company}?,How should the assistant answer common MR questions in Celestia Biologics?,document_retrieval,neutral,👎,none
+489,Epsilon Care,DermaShield,evidence_story,What should be included in the scientific story for DermaShield?,field_support,positive,👍,evidence_missing_or_overstated
+94,Asteron Pharma,LipiCore 20,comparison_language,What wording should be used versus competitors for LipiCore 20?,field_support,positive,👍,unsafe_comparison
+320,Deltava LifeSciences,,List the products covered in the {company} document.,List the products covered in the Deltava LifeSciences document.,document_retrieval,neutral,👍,none
+510,Epsilon Care,SkinCalm,doctor_pitch,How should SkinCalm be introduced to a clinician?,field_support,positive,👍,pitch_clarity
+230,Celestia Biologics,,What checks are required before deploying this content?,What checks are required before deploying this content?,document_retrieval,neutral,👎,none
+503,Epsilon Care,DermaShield,negative_spots,What are the likely weak spots for Epsilon Care content?,field_support,negative,👎,failure_mode
+325,Deltava LifeSciences,,Summarize the products of {company}.,Summarize the products of Deltava LifeSciences.,document_retrieval,neutral,👍,none
+99,Asteron Pharma,LipiCore 20,safety,List the safety restrictions for LipiCore 20.,field_support,positive,👍,safety_gap
+540,Asteron Pharma,,meta_pattern,What is the best retrieval target for thumbs-down analysis?,analyzer_training,neutral,👎,analysis_signal
+56,Asteron Pharma,CardiVex 10,negative_spots,What kind of answer should be flagged as negative for CardiVex 10?,field_support,negative,👎,failure_mode
+419,Deltava LifeSciences,MyoRelax,safety,What are the key safety warnings for MyoRelax?,field_support,positive,👍,safety_gap
+207,Bravira Therapeutics,BreatheCalm Duo,safety,What are the key safety warnings for BreatheCalm Duo?,field_support,positive,👍,safety_gap
+32,Asteron Pharma,CardiVex 10,doctor_pitch,Give the doctor-facing pitch for CardiVex 10.,field_support,positive,👍,pitch_clarity
+51,Asteron Pharma,CardiVex 10,safety,What are the key safety warnings for CardiVex 10?,field_support,positive,👍,safety_gap
+564,Deltava LifeSciences,,meta_pattern,What answer should be flagged if it invents trial data for Deltava LifeSciences?,analyzer_training,negative,👎,analysis_signal
+454,Epsilon Care,,What are the positive and negative retrieval signals?,What are the positive and negative retrieval signals?,document_retrieval,neutral,👎,none
+211,Bravira Therapeutics,BreatheCalm Duo,negative_spots,Where can the answer become non-compliant for BreatheCalm Duo?,field_support,negative,👎,failure_mode
+372,Deltava LifeSciences,Neurova SR,negative_spots,What are the likely weak spots for Deltava LifeSciences content?,field_support,negative,👎,failure_mode
+182,Bravira Therapeutics,AllerNase,safety,What are the key safety warnings for AllerNase?,field_support,positive,👎,safety_gap
+551,Celestia Biologics,,meta_pattern,Give me the approved messaging for Celestia Biologics.,analyzer_training,neutral,👍,analysis_signal
+50,Asteron Pharma,CardiVex 10,safety,What must be avoided when discussing CardiVex 10?,field_support,positive,👍,safety_gap
+49,Asteron Pharma,CardiVex 10,safety,List the safety restrictions for CardiVex 10.,field_support,positive,👍,safety_gap
+98,Asteron Pharma,LipiCore 20,safety,What safety points should the AI assistant mention for LipiCore 20?,field_support,positive,👍,safety_gap
+209,Bravira Therapeutics,BreatheCalm Duo,negative_spots,Which parts of the document would lead to negative feedback if misused?,field_support,negative,👎,failure_mode
+428,Epsilon Care,,Show the product list for {company}.,Show the product list for Epsilon Care.,document_retrieval,neutral,👍,none
+125,Bravira Therapeutics,,What should be validated before release?,What should be validated before release?,document_retrieval,neutral,👍,none
+243,Celestia Biologics,,How can the model detect weak spots in {company} content?,How can the model detect weak spots in Celestia Biologics content?,document_retrieval,neutral,👎,none
+296,Celestia Biologics,UltraProbiotic,doctor_pitch,What is the doctor-facing message for UltraProbiotic?,field_support,positive,👍,pitch_clarity
+293,Celestia Biologics,HeliClear Kit,negative_spots,What kind of answer should be flagged as negative for HeliClear Kit?,field_support,negative,👎,failure_mode
+68,Asteron Pharma,GlucoSure XR,comparison_language,How can GlucoSure XR be compared with competitors safely?,field_support,positive,👍,unsafe_comparison
+420,Deltava LifeSciences,MyoRelax,negative_spots,What could go wrong if the assistant overstates claims about MyoRelax?,field_support,negative,👎,failure_mode
+110,Bravira Therapeutics,,Show the product list for {company}.,Show the product list for Bravira Therapeutics.,document_retrieval,neutral,👍,none
+384,Deltava LifeSciences,JointEase Plus,evidence_story,Summarize the evidence-based narrative for JointEase Plus.,field_support,positive,👍,evidence_missing_or_overstated
+575,Epsilon Care,,meta_pattern,Which part of the document helps the model learn negative feedback signals?,analyzer_training,neutral,👎,analysis_signal
+122,Bravira Therapeutics,,What is the commercial strategy for {company}?,What is the commercial strategy for Bravira Therapeutics?,document_retrieval,neutral,👎,none
+264,Celestia Biologics,GastaZen,negative_spots,What could go wrong if the assistant overstates claims about GastaZen?,field_support,negative,👎,failure_mode
+346,Deltava LifeSciences,,Which negative signals should trigger thumbs down for {company}?,Which negative signals should trigger thumbs down for Deltava LifeSciences?,document_retrieval,neutral,👍,none
+170,Bravira Therapeutics,AllerNase,evidence_story,How should the assistant explain the evidence for AllerNase?,field_support,positive,👎,evidence_missing_or_overstated
+497,Epsilon Care,DermaShield,safety,What safety points should the AI assistant mention for DermaShield?,field_support,positive,👍,safety_gap
+35,Asteron Pharma,CardiVex 10,doctor_pitch,Provide a concise doctor call pitch for CardiVex 10.,field_support,positive,👍,pitch_clarity
+555,Celestia Biologics,,meta_pattern,Which part of the document helps the model learn negative feedback signals?,analyzer_training,neutral,👍,analysis_signal
+569,Deltava LifeSciences,,meta_pattern,Which document section is most important for safety validation?,analyzer_training,neutral,👎,analysis_signal
+324,Deltava LifeSciences,,Give me the products and their uses for {company}.,Give me the products and their uses for Deltava LifeSciences.,document_retrieval,neutral,👍,none
+37,Asteron Pharma,CardiVex 10,evidence_story,What is the evidence-led story for CardiVex 10?,field_support,positive,👍,evidence_missing_or_overstated
+4,Asteron Pharma,,Show the product list for {company}.,Show the product list for Asteron Pharma.,document_retrieval,neutral,👍,none
+461,Epsilon Care,AntiBac-CL,evidence_story,What is the evidence-led story for AntiBac-CL?,field_support,positive,👍,evidence_missing_or_overstated
+352,Deltava LifeSciences,Neurova SR,doctor_pitch,What is the doctor-facing message for Neurova SR?,field_support,positive,👍,pitch_clarity
+499,Epsilon Care,DermaShield,safety,What must be avoided when discussing DermaShield?,field_support,positive,👍,safety_gap
+438,Epsilon Care,,What is the positioning strategy described in the document?,What is the positioning strategy described in the document?,document_retrieval,neutral,👎,none
+302,Celestia Biologics,UltraProbiotic,evidence_story,What should be included in the scientific story for UltraProbiotic?,field_support,positive,👍,evidence_missing_or_overstated
+11,Asteron Pharma,,What is the summary of {company}'s portfolio?,What is the summary of Asteron Pharma's portfolio?,document_retrieval,neutral,👍,none
+174,Bravira Therapeutics,AllerNase,comparison_language,How can AllerNase be compared with competitors safely?,field_support,positive,👍,unsafe_comparison
+445,Epsilon Care,,What is the deployment sign-off checklist?,What is the deployment sign-off checklist?,document_retrieval,neutral,👎,none
+116,Bravira Therapeutics,,How does {company} position its products against competitors?,How does Bravira Therapeutics position its products against competitors?,document_retrieval,neutral,👎,none
+473,Epsilon Care,AntiBac-CL,safety,List the safety restrictions for AntiBac-CL.,field_support,positive,👍,safety_gap
+62,Asteron Pharma,GlucoSure XR,evidence_story,What is the evidence-led story for GlucoSure XR?,field_support,positive,👍,evidence_missing_or_overstated
+232,Celestia Biologics,,List the approval steps before field deployment.,List the approval steps before field deployment.,document_retrieval,neutral,👍,none
+265,Celestia Biologics,GastaZen,negative_spots,Which parts of the document would lead to negative feedback if misused?,field_support,negative,👎,failure_mode
+225,Celestia Biologics,,How should {company} position its brands strategically?,How should Celestia Biologics position its brands strategically?,document_retrieval,neutral,👎,none
+405,Deltava LifeSciences,MyoRelax,evidence_story,What is the evidence-led story for MyoRelax?,field_support,positive,👍,evidence_missing_or_overstated
+333,Deltava LifeSciences,,Explain the portfolio strategy of {company}.,Explain the portfolio strategy of Deltava LifeSciences.,document_retrieval,neutral,👎,none
+344,Deltava LifeSciences,,Provide sample doctor support Q&A for {company}.,Provide sample doctor support Q&A for Deltava LifeSciences.,document_retrieval,neutral,👎,none
+463,Epsilon Care,AntiBac-CL,evidence_story,How should the assistant explain the evidence for AntiBac-CL?,field_support,positive,👍,evidence_missing_or_overstated
+552,Celestia Biologics,,meta_pattern,What language should the AI avoid for Celestia Biologics?,analyzer_training,negative,👍,policy_violation
+366,Deltava LifeSciences,Neurova SR,safety,What safety points should the AI assistant mention for Neurova SR?,field_support,positive,👍,safety_gap
+103,Asteron Pharma,LipiCore 20,negative_spots,Which parts of the document would lead to negative feedback if misused?,field_support,negative,👎,failure_mode
+354,Deltava LifeSciences,Neurova SR,doctor_pitch,How should Neurova SR be introduced to a clinician?,field_support,positive,👍,pitch_clarity
+402,Deltava LifeSciences,MyoRelax,doctor_pitch,What is the doctor-facing message for MyoRelax?,field_support,positive,👍,pitch_clarity
+484,Epsilon Care,DermaShield,doctor_pitch,Provide a concise doctor call pitch for DermaShield.,field_support,positive,👍,pitch_clarity
+447,Epsilon Care,,Show sample questions and answers for {company}.,Show sample questions and answers for Epsilon Care.,document_retrieval,neutral,👍,none
+311,Celestia Biologics,UltraProbiotic,safety,List the safety restrictions for UltraProbiotic.,field_support,positive,👍,safety_gap
+440,Epsilon Care,,What is the commercial strategy for {company}?,What is the commercial strategy for Epsilon Care?,document_retrieval,neutral,👍,none
+475,Epsilon Care,AntiBac-CL,safety,What are the key safety warnings for AntiBac-CL?,field_support,positive,👍,safety_gap
+85,Asteron Pharma,LipiCore 20,doctor_pitch,Provide a concise doctor call pitch for LipiCore 20.,field_support,positive,👍,pitch_clarity
+578,Epsilon Care,,meta_pattern,What are the likely compliance gaps in this pharma doc?,analyzer_training,negative,👎,analysis_signal
+244,Celestia Biologics,GastaZen,doctor_pitch,Give the doctor-facing pitch for GastaZen.,field_support,positive,👍,pitch_clarity
+338,Deltava LifeSciences,,List the approval steps before field deployment.,List the approval steps before field deployment.,document_retrieval,neutral,👎,none
+66,Asteron Pharma,GlucoSure XR,evidence_story,Summarize the evidence-based narrative for GlucoSure XR.,field_support,positive,👎,evidence_missing_or_overstated
+65,Asteron Pharma,GlucoSure XR,evidence_story,What should be included in the scientific story for GlucoSure XR?,field_support,positive,👍,evidence_missing_or_overstated
+273,Celestia Biologics,HeliClear Kit,doctor_pitch,How should HeliClear Kit be introduced to a clinician?,field_support,positive,👍,pitch_clarity
+36,Asteron Pharma,CardiVex 10,doctor_pitch,How should CardiVex 10 be introduced to a clinician?,field_support,positive,👍,pitch_clarity
+249,Celestia Biologics,GastaZen,evidence_story,What is the evidence-led story for GastaZen?,field_support,positive,👍,evidence_missing_or_overstated
+375,Deltava LifeSciences,JointEase Plus,doctor_pitch,Give the doctor-facing pitch for JointEase Plus.,field_support,positive,👍,pitch_clarity
+44,Asteron Pharma,CardiVex 10,comparison_language,What wording should be used versus competitors for CardiVex 10?,field_support,positive,👎,unsafe_comparison
+41,Asteron Pharma,CardiVex 10,evidence_story,Summarize the evidence-based narrative for CardiVex 10.,field_support,positive,👍,evidence_missing_or_overstated
+488,Epsilon Care,DermaShield,evidence_story,How should the assistant explain the evidence for DermaShield?,field_support,positive,👍,evidence_missing_or_overstated
+124,Bravira Therapeutics,,What checks are required before deploying this content?,What checks are required before deploying this content?,document_retrieval,neutral,👎,none
+30,Asteron Pharma,,What are the positive and negative retrieval signals?,What are the positive and negative retrieval signals?,document_retrieval,neutral,👍,none
+123,Bravira Therapeutics,,What is the approval checklist before field deployment?,What is the approval checklist before field deployment?,document_retrieval,neutral,👍,none
+158,Bravira Therapeutics,RespiraX HFA,negative_spots,What could go wrong if the assistant overstates claims about RespiraX HFA?,field_support,negative,👎,failure_mode
+462,Epsilon Care,AntiBac-CL,evidence_story,What evidence should support AntiBac-CL?,field_support,positive,👍,evidence_missing_or_overstated
+426,Epsilon Care,,List the products covered in the {company} document.,List the products covered in the Epsilon Care document.,document_retrieval,neutral,👍,none
+10,Asteron Pharma,,How does {company} position its products against competitors?,How does Asteron Pharma position its products against competitors?,document_retrieval,neutral,👎,none
+516,Epsilon Care,SkinCalm,comparison_language,What comparison language is allowed for SkinCalm?,field_support,positive,👎,unsafe_comparison
+166,Bravira Therapeutics,AllerNase,doctor_pitch,Provide a concise doctor call pitch for AllerNase.,field_support,positive,👎,pitch_clarity
+307,Celestia Biologics,UltraProbiotic,comparison_language,Give approved comparison language for UltraProbiotic.,field_support,positive,👍,unsafe_comparison
+1,Asteron Pharma,,What products are listed in {company}?,What products are listed in Asteron Pharma?,document_retrieval,neutral,👍,none
+272,Celestia Biologics,HeliClear Kit,doctor_pitch,Provide a concise doctor call pitch for HeliClear Kit.,field_support,positive,👎,pitch_clarity
+399,Deltava LifeSciences,JointEase Plus,negative_spots,What kind of answer should be flagged as negative for JointEase Plus?,field_support,negative,👎,failure_mode
+512,Epsilon Care,SkinCalm,evidence_story,What evidence should support SkinCalm?,field_support,positive,👍,evidence_missing_or_overstated
+83,Asteron Pharma,LipiCore 20,doctor_pitch,How should a field medical rep pitch LipiCore 20 to doctors?,field_support,positive,👍,pitch_clarity
+416,Deltava LifeSciences,MyoRelax,safety,What safety points should the AI assistant mention for MyoRelax?,field_support,positive,👎,safety_gap
+192,Bravira Therapeutics,BreatheCalm Duo,doctor_pitch,How should BreatheCalm Duo be introduced to a clinician?,field_support,positive,👍,pitch_clarity
+452,Epsilon Care,,Which negative signals should trigger thumbs down for {company}?,Which negative signals should trigger thumbs down for Epsilon Care?,document_retrieval,neutral,👎,none
+102,Asteron Pharma,LipiCore 20,negative_spots,What could go wrong if the assistant overstates claims about LipiCore 20?,field_support,negative,👎,failure_mode
+312,Celestia Biologics,UltraProbiotic,safety,What must be avoided when discussing UltraProbiotic?,field_support,positive,👍,safety_gap
+414,Deltava LifeSciences,MyoRelax,comparison_language,How should MyoRelax be positioned against competitor options?,field_support,positive,👍,unsafe_comparison
+509,Epsilon Care,SkinCalm,doctor_pitch,Provide a concise doctor call pitch for SkinCalm.,field_support,positive,👎,pitch_clarity
+153,Bravira Therapeutics,RespiraX HFA,safety,What are the safety guardrails for RespiraX HFA?,field_support,positive,👍,safety_gap
+321,Deltava LifeSciences,,Which brands does {company} mention?,Which brands does Deltava LifeSciences mention?,document_retrieval,neutral,👎,none
+55,Asteron Pharma,CardiVex 10,negative_spots,Where can the answer become non-compliant for CardiVex 10?,field_support,negative,👎,failure_mode
+260,Celestia Biologics,GastaZen,safety,What safety points should the AI assistant mention for GastaZen?,field_support,positive,👍,safety_gap
+92,Asteron Pharma,LipiCore 20,comparison_language,What comparison language is allowed for LipiCore 20?,field_support,positive,👎,unsafe_comparison
+391,Deltava LifeSciences,JointEase Plus,safety,What safety points should the AI assistant mention for JointEase Plus?,field_support,positive,👍,safety_gap
+257,Celestia Biologics,GastaZen,comparison_language,Give approved comparison language for GastaZen.,field_support,positive,👎,unsafe_comparison
+479,Epsilon Care,AntiBac-CL,negative_spots,Where can the answer become non-compliant for AntiBac-CL?,field_support,negative,👎,failure_mode
+369,Deltava LifeSciences,Neurova SR,safety,What are the key safety warnings for Neurova SR?,field_support,positive,👍,safety_gap
+435,Epsilon Care,,What is the summary of {company}'s portfolio?,What is the summary of Epsilon Care's portfolio?,document_retrieval,neutral,👎,none
+2,Asteron Pharma,,List the products covered in the {company} document.,List the products covered in the Asteron Pharma document.,document_retrieval,neutral,👎,none
+233,Celestia Biologics,,What is the deployment sign-off checklist?,What is the deployment sign-off checklist?,document_retrieval,neutral,👍,none
+538,Asteron Pharma,,meta_pattern,What are the likely compliance gaps in this pharma doc?,analyzer_training,negative,👎,analysis_signal
+223,Celestia Biologics,,What is the summary of {company}'s portfolio?,What is the summary of Celestia Biologics's portfolio?,document_retrieval,neutral,👍,none
+151,Bravira Therapeutics,RespiraX HFA,comparison_language,Give approved comparison language for RespiraX HFA.,field_support,positive,👍,unsafe_comparison
+58,Asteron Pharma,GlucoSure XR,doctor_pitch,How should a field medical rep pitch GlucoSure XR to doctors?,field_support,positive,👍,pitch_clarity
+175,Bravira Therapeutics,AllerNase,comparison_language,What wording should be used versus competitors for AllerNase?,field_support,positive,👍,unsafe_comparison
+329,Deltava LifeSciences,,What is the summary of {company}'s portfolio?,What is the summary of Deltava LifeSciences's portfolio?,document_retrieval,neutral,👍,none
+502,Epsilon Care,DermaShield,negative_spots,Which parts of the document would lead to negative feedback if misused?,field_support,negative,👎,failure_mode
+137,Bravira Therapeutics,,How can the model detect weak spots in {company} content?,How can the model detect weak spots in Bravira Therapeutics content?,document_retrieval,neutral,👍,none
+385,Deltava LifeSciences,JointEase Plus,comparison_language,What comparison language is allowed for JointEase Plus?,field_support,positive,👎,unsafe_comparison
+275,Celestia Biologics,HeliClear Kit,evidence_story,What evidence should support HeliClear Kit?,field_support,positive,👍,evidence_missing_or_overstated
+350,Deltava LifeSciences,Neurova SR,doctor_pitch,Give the doctor-facing pitch for Neurova SR.,field_support,positive,👎,pitch_clarity
+59,Asteron Pharma,GlucoSure XR,doctor_pitch,What is the doctor-facing message for GlucoSure XR?,field_support,positive,👍,pitch_clarity
+370,Deltava LifeSciences,Neurova SR,negative_spots,What could go wrong if the assistant overstates claims about Neurova SR?,field_support,negative,👎,failure_mode
+448,Epsilon Care,,What Q&A examples are provided for doctor support?,What Q&A examples are provided for doctor support?,document_retrieval,neutral,👎,none
+6,Asteron Pharma,,Give me the products and their uses for {company}.,Give me the products and their uses for Asteron Pharma.,document_retrieval,neutral,👍,none
+284,Celestia Biologics,HeliClear Kit,safety,What are the safety guardrails for HeliClear Kit?,field_support,positive,👍,safety_gap
+129,Bravira Therapeutics,,Show sample questions and answers for {company}.,Show sample questions and answers for Bravira Therapeutics.,document_retrieval,neutral,👍,none
+543,Bravira Therapeutics,,meta_pattern,How should a rep respond if a doctor asks for comparison with competitors?,analyzer_training,neutral,👍,analysis_signal
+240,Celestia Biologics,,Which negative signals should trigger thumbs down for {company}?,Which negative signals should trigger thumbs down for Celestia Biologics?,document_retrieval,neutral,👍,none
+446,Epsilon Care,,Give AI Q&A examples for MR support in {company}.,Give AI Q&A examples for MR support in Epsilon Care.,document_retrieval,neutral,👎,none
+196,Bravira Therapeutics,BreatheCalm Duo,evidence_story,What should be included in the scientific story for BreatheCalm Duo?,field_support,positive,👍,evidence_missing_or_overstated
+198,Bravira Therapeutics,BreatheCalm Duo,comparison_language,What comparison language is allowed for BreatheCalm Duo?,field_support,positive,👍,unsafe_comparison
+570,Deltava LifeSciences,,meta_pattern,What is the best retrieval target for thumbs-down analysis?,analyzer_training,neutral,👍,analysis_signal
+306,Celestia Biologics,UltraProbiotic,comparison_language,What wording should be used versus competitors for UltraProbiotic?,field_support,positive,👍,unsafe_comparison
+217,Celestia Biologics,,What are the key products under {company}?,What are the key products under Celestia Biologics?,document_retrieval,neutral,👍,none
+554,Celestia Biologics,,meta_pattern,What answer should be flagged if it invents trial data for Celestia Biologics?,analyzer_training,negative,👎,analysis_signal
+406,Deltava LifeSciences,MyoRelax,evidence_story,What evidence should support MyoRelax?,field_support,positive,👍,evidence_missing_or_overstated
+530,Epsilon Care,SkinCalm,negative_spots,What kind of answer should be flagged as negative for SkinCalm?,field_support,negative,👎,failure_mode
+322,Deltava LifeSciences,,Show the product list for {company}.,Show the product list for Deltava LifeSciences.,document_retrieval,neutral,👍,none
+79,Asteron Pharma,GlucoSure XR,negative_spots,What are the likely weak spots for Asteron Pharma content?,field_support,negative,👎,failure_mode
+57,Asteron Pharma,GlucoSure XR,doctor_pitch,Give the doctor-facing pitch for GlucoSure XR.,field_support,positive,👍,pitch_clarity
+441,Epsilon Care,,What is the approval checklist before field deployment?,What is the approval checklist before field deployment?,document_retrieval,neutral,👍,none
+25,Asteron Pharma,,How should the assistant answer common MR questions in {company}?,How should the assistant answer common MR questions in Asteron Pharma?,document_retrieval,neutral,👎,none
+387,Deltava LifeSciences,JointEase Plus,comparison_language,What wording should be used versus competitors for JointEase Plus?,field_support,positive,👍,unsafe_comparison
+533,Asteron Pharma,,meta_pattern,How should a rep respond if a doctor asks for comparison with competitors?,analyzer_training,neutral,👍,analysis_signal
+253,Celestia Biologics,GastaZen,evidence_story,Summarize the evidence-based narrative for GastaZen.,field_support,positive,👍,evidence_missing_or_overstated
+261,Celestia Biologics,GastaZen,safety,List the safety restrictions for GastaZen.,field_support,positive,👍,safety_gap
+71,Asteron Pharma,GlucoSure XR,comparison_language,How should GlucoSure XR be positioned against competitor options?,field_support,positive,👍,unsafe_comparison
+506,Epsilon Care,SkinCalm,doctor_pitch,Give the doctor-facing pitch for SkinCalm.,field_support,positive,👍,pitch_clarity
+186,Bravira Therapeutics,AllerNase,negative_spots,Where can the answer become non-compliant for AllerNase?,field_support,negative,👎,failure_mode
+205,Bravira Therapeutics,BreatheCalm Duo,safety,List the safety restrictions for BreatheCalm Duo.,field_support,positive,👍,safety_gap
+299,Celestia Biologics,UltraProbiotic,evidence_story,What is the evidence-led story for UltraProbiotic?,field_support,positive,👍,evidence_missing_or_overstated
+562,Deltava LifeSciences,,meta_pattern,What language should the AI avoid for Deltava LifeSciences?,analyzer_training,negative,👎,policy_violation
+220,Celestia Biologics,,How are the products in {company} compared?,How are the products in Celestia Biologics compared?,document_retrieval,neutral,👎,none
+300,Celestia Biologics,UltraProbiotic,evidence_story,What evidence should support UltraProbiotic?,field_support,positive,👎,evidence_missing_or_overstated
+383,Deltava LifeSciences,JointEase Plus,evidence_story,What should be included in the scientific story for JointEase Plus?,field_support,positive,👍,evidence_missing_or_overstated
+135,Bravira Therapeutics,,How should feedback be captured for {company} documents?,How should feedback be captured for Bravira Therapeutics documents?,document_retrieval,neutral,👍,none
+276,Celestia Biologics,HeliClear Kit,evidence_story,How should the assistant explain the evidence for HeliClear Kit?,field_support,positive,👍,evidence_missing_or_overstated
+288,Celestia Biologics,HeliClear Kit,safety,What are the key safety warnings for HeliClear Kit?,field_support,positive,👍,safety_gap
+382,Deltava LifeSciences,JointEase Plus,evidence_story,How should the assistant explain the evidence for JointEase Plus?,field_support,positive,👎,evidence_missing_or_overstated
+127,Bravira Therapeutics,,What is the deployment sign-off checklist?,What is the deployment sign-off checklist?,document_retrieval,neutral,👎,none
+534,Asteron Pharma,,meta_pattern,What answer should be flagged if it invents trial data for Asteron Pharma?,analyzer_training,negative,👎,analysis_signal
+136,Bravira Therapeutics,,What are the positive and negative retrieval signals?,What are the positive and negative retrieval signals?,document_retrieval,neutral,👎,none
+565,Deltava LifeSciences,,meta_pattern,Which part of the document helps the model learn negative feedback signals?,analyzer_training,neutral,👎,analysis_signal
+235,Celestia Biologics,,Show sample questions and answers for {company}.,Show sample questions and answers for Celestia Biologics.,document_retrieval,neutral,👍,none
+330,Deltava LifeSciences,,What is the executive strategy for product positioning in {company}?,What is the executive strategy for product positioning in Deltava LifeSciences?,document_retrieval,neutral,👍,none
+469,Epsilon Care,AntiBac-CL,comparison_language,Give approved comparison language for AntiBac-CL.,field_support,positive,👎,unsafe_comparison
+453,Epsilon Care,,How should feedback be captured for {company} documents?,How should feedback be captured for Epsilon Care documents?,document_retrieval,neutral,👎,none
+203,Bravira Therapeutics,BreatheCalm Duo,safety,What are the safety guardrails for BreatheCalm Duo?,field_support,positive,👍,safety_gap
+256,Celestia Biologics,GastaZen,comparison_language,What wording should be used versus competitors for GastaZen?,field_support,positive,👍,unsafe_comparison
+336,Deltava LifeSciences,,What checks are required before deploying this content?,What checks are required before deploying this content?,document_retrieval,neutral,👍,none
+491,Epsilon Care,DermaShield,comparison_language,What comparison language is allowed for DermaShield?,field_support,positive,👍,unsafe_comparison
+495,Epsilon Care,DermaShield,comparison_language,How should DermaShield be positioned against competitor options?,field_support,positive,👍,unsafe_comparison
+545,Bravira Therapeutics,,meta_pattern,Which part of the document helps the model learn negative feedback signals?,analyzer_training,neutral,👍,analysis_signal
+449,Epsilon Care,,How should the assistant answer common MR questions in {company}?,How should the assistant answer common MR questions in Epsilon Care?,document_retrieval,neutral,👎,none
+291,Celestia Biologics,HeliClear Kit,negative_spots,What are the likely weak spots for Celestia Biologics content?,field_support,negative,👎,failure_mode
+483,Epsilon Care,DermaShield,doctor_pitch,What is the doctor-facing message for DermaShield?,field_support,positive,👍,pitch_clarity
+468,Epsilon Care,AntiBac-CL,comparison_language,What wording should be used versus competitors for AntiBac-CL?,field_support,positive,👎,unsafe_comparison
+109,Bravira Therapeutics,,Which brands does {company} mention?,Which brands does Bravira Therapeutics mention?,document_retrieval,neutral,👎,none
+34,Asteron Pharma,CardiVex 10,doctor_pitch,What is the doctor-facing message for CardiVex 10?,field_support,positive,👎,pitch_clarity
+138,Bravira Therapeutics,RespiraX HFA,doctor_pitch,Give the doctor-facing pitch for RespiraX HFA.,field_support,positive,👎,pitch_clarity
+206,Bravira Therapeutics,BreatheCalm Duo,safety,What must be avoided when discussing BreatheCalm Duo?,field_support,positive,👍,safety_gap
+162,Bravira Therapeutics,RespiraX HFA,negative_spots,What kind of answer should be flagged as negative for RespiraX HFA?,field_support,negative,👎,failure_mode
+413,Deltava LifeSciences,MyoRelax,comparison_language,Give approved comparison language for MyoRelax.,field_support,positive,👎,unsafe_comparison
+17,Asteron Pharma,,What is the approval checklist before field deployment?,What is the approval checklist before field deployment?,document_retrieval,neutral,👎,none
+421,Deltava LifeSciences,MyoRelax,negative_spots,Which parts of the document would lead to negative feedback if misused?,field_support,negative,👎,failure_mode
+118,Bravira Therapeutics,,What is the executive strategy for product positioning in {company}?,What is the executive strategy for product positioning in Bravira Therapeutics?,document_retrieval,neutral,👎,none
+29,Asteron Pharma,,How should feedback be captured for {company} documents?,How should feedback be captured for Asteron Pharma documents?,document_retrieval,neutral,👍,none
+398,Deltava LifeSciences,JointEase Plus,negative_spots,Where can the answer become non-compliant for JointEase Plus?,field_support,negative,👎,failure_mode
+394,Deltava LifeSciences,JointEase Plus,safety,What are the key safety warnings for JointEase Plus?,field_support,positive,👍,safety_gap
+432,Epsilon Care,,How are the products in {company} compared?,How are the products in Epsilon Care compared?,document_retrieval,neutral,👎,none
+523,Epsilon Care,SkinCalm,safety,List the safety restrictions for SkinCalm.,field_support,positive,👍,safety_gap
+351,Deltava LifeSciences,Neurova SR,doctor_pitch,How should a field medical rep pitch Neurova SR to doctors?,field_support,positive,👍,pitch_clarity
+113,Bravira Therapeutics,,Summarize the products of {company}.,Summarize the products of Bravira Therapeutics.,document_retrieval,neutral,👍,none
+286,Celestia Biologics,HeliClear Kit,safety,List the safety restrictions for HeliClear Kit.,field_support,positive,👍,safety_gap
+544,Bravira Therapeutics,,meta_pattern,What answer should be flagged if it invents trial data for Bravira Therapeutics?,analyzer_training,negative,👎,analysis_signal
+328,Deltava LifeSciences,,How does {company} position its products against competitors?,How does Deltava LifeSciences position its products against competitors?,document_retrieval,neutral,👍,none
+514,Epsilon Care,SkinCalm,evidence_story,What should be included in the scientific story for SkinCalm?,field_support,positive,👍,evidence_missing_or_overstated
+507,Epsilon Care,SkinCalm,doctor_pitch,How should a field medical rep pitch SkinCalm to doctors?,field_support,positive,👍,pitch_clarity
+277,Celestia Biologics,HeliClear Kit,evidence_story,What should be included in the scientific story for HeliClear Kit?,field_support,positive,👍,evidence_missing_or_overstated
+389,Deltava LifeSciences,JointEase Plus,comparison_language,How should JointEase Plus be positioned against competitor options?,field_support,positive,👍,unsafe_comparison
+474,Epsilon Care,AntiBac-CL,safety,What must be avoided when discussing AntiBac-CL?,field_support,positive,👎,safety_gap
+168,Bravira Therapeutics,AllerNase,evidence_story,What is the evidence-led story for AllerNase?,field_support,positive,👍,evidence_missing_or_overstated
+577,Epsilon Care,,meta_pattern,How can the system detect unsupported claims in Epsilon Care documents?,analyzer_training,negative,👎,analysis_signal
+176,Bravira Therapeutics,AllerNase,comparison_language,Give approved comparison language for AllerNase.,field_support,positive,👍,unsafe_comparison
+74,Asteron Pharma,GlucoSure XR,safety,List the safety restrictions for GlucoSure XR.,field_support,positive,👍,safety_gap
+274,Celestia Biologics,HeliClear Kit,evidence_story,What is the evidence-led story for HeliClear Kit?,field_support,positive,👎,evidence_missing_or_overstated
+215,Celestia Biologics,,Which brands does {company} mention?,Which brands does Celestia Biologics mention?,document_retrieval,neutral,👍,none
+364,Deltava LifeSciences,Neurova SR,comparison_language,How should Neurova SR be positioned against competitor options?,field_support,positive,👍,unsafe_comparison
+380,Deltava LifeSciences,JointEase Plus,evidence_story,What is the evidence-led story for JointEase Plus?,field_support,positive,👍,evidence_missing_or_overstated
+167,Bravira Therapeutics,AllerNase,doctor_pitch,How should AllerNase be introduced to a clinician?,field_support,positive,👍,pitch_clarity
+374,Deltava LifeSciences,Neurova SR,negative_spots,What kind of answer should be flagged as negative for Neurova SR?,field_support,negative,👍,failure_mode
+465,Epsilon Care,AntiBac-CL,evidence_story,Summarize the evidence-based narrative for AntiBac-CL.,field_support,positive,👎,evidence_missing_or_overstated
+553,Celestia Biologics,,meta_pattern,How should a rep respond if a doctor asks for comparison with competitors?,analyzer_training,neutral,👎,analysis_signal
+547,Bravira Therapeutics,,meta_pattern,How can the system detect unsupported claims in Bravira Therapeutics documents?,analyzer_training,negative,👎,analysis_signal
+104,Asteron Pharma,LipiCore 20,negative_spots,What are the likely weak spots for Asteron Pharma content?,field_support,negative,👍,failure_mode
+566,Deltava LifeSciences,,meta_pattern,What should the assistant say when asked for off-label use?,analyzer_training,negative,👎,policy_violation
+82,Asteron Pharma,LipiCore 20,doctor_pitch,Give the doctor-facing pitch for LipiCore 20.,field_support,positive,👍,pitch_clarity
+297,Celestia Biologics,UltraProbiotic,doctor_pitch,Provide a concise doctor call pitch for UltraProbiotic.,field_support,positive,👍,pitch_clarity
+234,Celestia Biologics,,Give AI Q&A examples for MR support in {company}.,Give AI Q&A examples for MR support in Celestia Biologics.,document_retrieval,neutral,👎,none
+47,Asteron Pharma,CardiVex 10,safety,What are the safety guardrails for CardiVex 10?,field_support,positive,👍,safety_gap
+72,Asteron Pharma,GlucoSure XR,safety,What are the safety guardrails for GlucoSure XR?,field_support,positive,👍,safety_gap
+197,Bravira Therapeutics,BreatheCalm Duo,evidence_story,Summarize the evidence-based narrative for BreatheCalm Duo.,field_support,positive,👍,evidence_missing_or_overstated
+371,Deltava LifeSciences,Neurova SR,negative_spots,Which parts of the document would lead to negative feedback if misused?,field_support,negative,👎,failure_mode
+301,Celestia Biologics,UltraProbiotic,evidence_story,How should the assistant explain the evidence for UltraProbiotic?,field_support,positive,👎,evidence_missing_or_overstated
+81,Asteron Pharma,GlucoSure XR,negative_spots,What kind of answer should be flagged as negative for GlucoSure XR?,field_support,negative,👎,failure_mode
+388,Deltava LifeSciences,JointEase Plus,comparison_language,Give approved comparison language for JointEase Plus.,field_support,positive,👍,unsafe_comparison
+128,Bravira Therapeutics,,Give AI Q&A examples for MR support in {company}.,Give AI Q&A examples for MR support in Bravira Therapeutics.,document_retrieval,neutral,👍,none
+471,Epsilon Care,AntiBac-CL,safety,What are the safety guardrails for AntiBac-CL?,field_support,positive,👍,safety_gap
+45,Asteron Pharma,CardiVex 10,comparison_language,Give approved comparison language for CardiVex 10.,field_support,positive,👍,unsafe_comparison
+271,Celestia Biologics,HeliClear Kit,doctor_pitch,What is the doctor-facing message for HeliClear Kit?,field_support,positive,👍,pitch_clarity
+353,Deltava LifeSciences,Neurova SR,doctor_pitch,Provide a concise doctor call pitch for Neurova SR.,field_support,positive,👍,pitch_clarity
+368,Deltava LifeSciences,Neurova SR,safety,What must be avoided when discussing Neurova SR?,field_support,positive,👍,safety_gap
+100,Asteron Pharma,LipiCore 20,safety,What must be avoided when discussing LipiCore 20?,field_support,positive,👍,safety_gap
+390,Deltava LifeSciences,JointEase Plus,safety,What are the safety guardrails for JointEase Plus?,field_support,positive,👍,safety_gap
+95,Asteron Pharma,LipiCore 20,comparison_language,Give approved comparison language for LipiCore 20.,field_support,positive,👍,unsafe_comparison
+574,Epsilon Care,,meta_pattern,What answer should be flagged if it invents trial data for Epsilon Care?,analyzer_training,negative,👎,analysis_signal
+345,Deltava LifeSciences,,What RCPA/RAG signals should be tracked for {company}?,What RCPA/RAG signals should be tracked for Deltava LifeSciences?,document_retrieval,neutral,👍,none
+221,Celestia Biologics,,What is the comparison logic used in the {company} document?,What is the comparison logic used in the Celestia Biologics document?,document_retrieval,neutral,👎,none
+160,Bravira Therapeutics,RespiraX HFA,negative_spots,What are the likely weak spots for Bravira Therapeutics content?,field_support,negative,👍,failure_mode
+558,Celestia Biologics,,meta_pattern,What are the likely compliance gaps in this pharma doc?,analyzer_training,negative,👎,analysis_signal
+349,Deltava LifeSciences,,How can the model detect weak spots in {company} content?,How can the model detect weak spots in Deltava LifeSciences content?,document_retrieval,neutral,👎,none
+571,Epsilon Care,,meta_pattern,Give me the approved messaging for Epsilon Care.,analyzer_training,neutral,👎,analysis_signal
+164,Bravira Therapeutics,AllerNase,doctor_pitch,How should a field medical rep pitch AllerNase to doctors?,field_support,positive,👍,pitch_clarity
+7,Asteron Pharma,,Summarize the products of {company}.,Summarize the products of Asteron Pharma.,document_retrieval,neutral,👍,none
+285,Celestia Biologics,HeliClear Kit,safety,What safety points should the AI assistant mention for HeliClear Kit?,field_support,positive,👍,safety_gap
+460,Epsilon Care,AntiBac-CL,doctor_pitch,How should AntiBac-CL be introduced to a clinician?,field_support,positive,👍,pitch_clarity
+226,Celestia Biologics,,What is the positioning strategy described in the document?,What is the positioning strategy described in the document?,document_retrieval,neutral,👍,none
+430,Epsilon Care,,Give me the products and their uses for {company}.,Give me the products and their uses for Epsilon Care.,document_retrieval,neutral,👍,none
+573,Epsilon Care,,meta_pattern,How should a rep respond if a doctor asks for comparison with competitors?,analyzer_training,neutral,👍,analysis_signal
+204,Bravira Therapeutics,BreatheCalm Duo,safety,What safety points should the AI assistant mention for BreatheCalm Duo?,field_support,positive,👎,safety_gap
+28,Asteron Pharma,,Which negative signals should trigger thumbs down for {company}?,Which negative signals should trigger thumbs down for Asteron Pharma?,document_retrieval,neutral,👍,none
+518,Epsilon Care,SkinCalm,comparison_language,What wording should be used versus competitors for SkinCalm?,field_support,positive,👍,unsafe_comparison
+239,Celestia Biologics,,What RCPA/RAG signals should be tracked for {company}?,What RCPA/RAG signals should be tracked for Celestia Biologics?,document_retrieval,neutral,👍,none
+224,Celestia Biologics,,What is the executive strategy for product positioning in {company}?,What is the executive strategy for product positioning in Celestia Biologics?,document_retrieval,neutral,👍,none
+96,Asteron Pharma,LipiCore 20,comparison_language,How should LipiCore 20 be positioned against competitor options?,field_support,positive,👍,unsafe_comparison
+31,Asteron Pharma,,How can the model detect weak spots in {company} content?,How can the model detect weak spots in Asteron Pharma content?,document_retrieval,neutral,👎,none
+33,Asteron Pharma,CardiVex 10,doctor_pitch,How should a field medical rep pitch CardiVex 10 to doctors?,field_support,positive,👍,pitch_clarity
+433,Epsilon Care,,What is the comparison logic used in the {company} document?,What is the comparison logic used in the Epsilon Care document?,document_retrieval,neutral,👍,none
+90,Asteron Pharma,LipiCore 20,evidence_story,What should be included in the scientific story for LipiCore 20?,field_support,positive,👍,evidence_missing_or_overstated
+559,Celestia Biologics,,meta_pattern,Which document section is most important for safety validation?,analyzer_training,neutral,👎,analysis_signal
+105,Asteron Pharma,LipiCore 20,negative_spots,Where can the answer become non-compliant for LipiCore 20?,field_support,negative,👍,failure_mode
+143,Bravira Therapeutics,RespiraX HFA,evidence_story,What is the evidence-led story for RespiraX HFA?,field_support,positive,👍,evidence_missing_or_overstated
+229,Celestia Biologics,,What is the approval checklist before field deployment?,What is the approval checklist before field deployment?,document_retrieval,neutral,👎,none
+251,Celestia Biologics,GastaZen,evidence_story,How should the assistant explain the evidence for GastaZen?,field_support,positive,👍,evidence_missing_or_overstated
+282,Celestia Biologics,HeliClear Kit,comparison_language,Give approved comparison language for HeliClear Kit.,field_support,positive,👎,unsafe_comparison
+26,Asteron Pharma,,Provide sample doctor support Q&A for {company}.,Provide sample doctor support Q&A for Asteron Pharma.,document_retrieval,neutral,👍,none
+115,Bravira Therapeutics,,What is the comparison logic used in the {company} document?,What is the comparison logic used in the Bravira Therapeutics document?,document_retrieval,neutral,👎,none

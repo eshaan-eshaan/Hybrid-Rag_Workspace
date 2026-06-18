@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Local environments and secrets
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# RAG Volatile / Local Persistence Database & logs
+memory_index.faiss
+memory_store.json
+rag_logs.jsonl
+user_context.json
+
+# Local configurations
+.agents/
+.vscode/
+.idea/

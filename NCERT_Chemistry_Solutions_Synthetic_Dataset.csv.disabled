@@ -1,0 +1,51 @@
+ID,Query,Chatbot_Answer,Status,Feedback
+1,State Raoult's law.,Partial vapour pressure is proportional to mole fraction of the component.,Correct,👍
+2,What is anoxia?,Low oxygen concentration in blood at high altitudes.,Correct,👍
+3,Write Henry's law equation.,p = KH x,Correct,👍
+4,What is solubility?,Maximum amount of solute dissolved in a given solvent at a specified temperature.,Correct,👍
+5,Define volume percentage.,Volume % = (volume of component / total volume of solution) × 100.,Correct,👍
+6,What is anoxia?,Excess oxygen in blood.,Incorrect,👎
+7,Write Raoult's law expression.,p_i = x_i p_i°,Correct,👍
+8,Is molarity temperature dependent?,"Yes, because volume changes with temperature.",Correct,👍
+9,Conditions for ideal solution?,ΔHmix = 0 and ΔVmix = 0.,Correct,👍
+10,Does pressure affect solubility of solids?,It has negligible effect.,Correct,👍
+11,What is a non-ideal solution?,Solution that deviates from Raoult's law.,Correct,👍
+12,Why are soft drinks bottled under pressure?,To increase CO2 solubility.,Correct,👍
+13,What is a saturated solution?,A solution that cannot dissolve more solute at the same temperature and pressure.,Correct,👍
+14,Define mass percentage.,Mass % = (mass of component / total mass of solution) × 100.,Correct,👍
+15,State Henry's law.,Gas solubility decreases with pressure.,Incorrect,👎
+16,Define molarity.,Molarity is moles of solute per kilogram of solvent.,Incorrect,👎
+17,Is molality temperature dependent?,"No, because mass remains constant with temperature.",Correct,👍
+18,How does temperature affect gas solubility?,Gas solubility decreases as temperature increases.,Correct,👍
+19,Example of negative deviation.,Chloroform and acetone.,Correct,👍
+20,What is a solution?,A solution is a homogeneous mixture of two or more components.,Correct,👍
+21,What causes positive deviation?,Stronger A-B interactions.,Incorrect,👎
+22,State Henry's law.,Solubility of a gas is directly proportional to its partial pressure above the liquid.,Correct,👍
+23,Example of positive deviation.,Ethanol and acetone.,Correct,👍
+24,What is molality?,Moles of solute per litre of solution.,Incorrect,👎
+25,Define ideal solution.,Solution showing maximum deviation from Raoult's law.,Incorrect,👎
+26,Example of ideal solution.,Benzene and toluene.,Correct,👍
+27,What is an ideal solution?,Solution obeying Raoult's law over the entire concentration range.,Correct,👍
+28,What is KH?,Henry's law constant.,Correct,👍
+29,What is bends in scuba diving?,Formation of nitrogen bubbles in blood due to pressure reduction.,Correct,👍
+30,Example of ideal solution.,Ethanol-water mixture.,Incorrect,👎
+31,What is ppm?,Percentage per mole.,Incorrect,👎
+32,What is an azeotrope?,Mixture with the same composition in liquid and vapour phase.,Correct,👍
+33,What causes positive deviation?,Weaker A-B interactions than A-A and B-B interactions.,Correct,👍
+34,Define azeotrope.,Mixture separable completely by distillation.,Incorrect,👎
+35,What is an unsaturated solution?,A solution that can dissolve more solute.,Correct,👍
+36,What are colligative properties?,Properties depending on chemical nature of the solute.,Incorrect,👎
+37,Does gas solubility increase with temperature?,"Yes, always increases.",Incorrect,👎
+38,What are solutes?,Components present other than the solvent are called solutes.,Correct,👍
+39,What is total vapour pressure in binary solutions?,Sum of partial vapour pressures.,Correct,👍
+40,What are colligative properties?,Properties depending only on the number of solute particles.,Correct,👍
+41,What is ppm?,Parts per million expresses concentration of trace substances.,Correct,👍
+42,What causes negative deviation?,Stronger A-B interactions than A-A and B-B interactions.,Correct,👍
+43,Define mole fraction.,Mole fraction is moles of a component divided by total moles.,Correct,👍
+44,What is molality?,Number of moles of solute per kilogram of solvent.,Correct,👍
+45,Explain 'like dissolves like'.,Polar solutes dissolve in polar solvents and non-polar in non-polar solvents.,Correct,👍
+46,How does temperature affect solid solubility?,Usually increases if dissolution is endothermic.,Correct,👍
+47,How does pressure affect gas solubility?,Gas solubility increases with pressure.,Correct,👍
+48,What is the solvent in a solution?,The component present in the largest amount is called the solvent.,Correct,👍
+49,What is molarity?,Number of moles of solute per litre of solution.,Correct,👍
+50,What is mole fraction?,Ratio of mass of component to total mass.,Incorrect,👎
