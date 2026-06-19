@@ -5,6 +5,18 @@ import time
 import uuid
 from datetime import datetime, timezone
 import gradio as gr
+
+# Parse Gradio version for compatibility between Gradio 4 (Spaces) and Gradio 6 (Local)
+try:
+    from packaging import version
+    is_gradio_v5_or_v6 = version.parse(gr.__version__) >= version.parse("5.0.0")
+except ImportError:
+    try:
+        parts = [int(p) for p in gr.__version__.split(".")]
+        is_gradio_v5_or_v6 = parts[0] >= 5
+    except Exception:
+        is_gradio_v5_or_v6 = False
+
 import pdfplumber
 import faiss
 import numpy as np
@@ -548,15 +560,22 @@ def generate_response(query, history, personal_context="", system_context=""):
     memory_context = ""
     if memories:
         memory_context = "\n\n".join([f"Past Memory (Distance: {m['distance']:.4f}):\n{m['memory_text']}" for m in memories])
-        
     # Format recent history section for prompt
     recent_history = ""
     if history:
         recent = history[-6:]
         formatted = []
         for msg in recent:
-            role = "User" if msg["role"] == "user" else "Assistant"
-            formatted.append(f"{role}: {msg['content']}")
+            if isinstance(msg, dict):
+                role = "User" if msg.get("role") == "user" else "Assistant"
+                content = msg.get("content", "")
+                formatted.append(f"{role}: {content}")
+            elif isinstance(msg, (list, tuple)) and len(msg) == 2:
+                user_msg, bot_msg = msg
+                if user_msg:
+                    formatted.append(f"User: {user_msg}")
+                if bot_msg:
+                    formatted.append(f"Assistant: {bot_msg}")
         recent_history = "\n".join(formatted)
         
     history_section = f"\nRecent Conversation History:\n{recent_history}\n" if recent_history else ""
@@ -623,9 +642,12 @@ Answer:
     # Add query-answer to conversational memory
     memory_store.add_memory(query, answer)
     
-    # Update Chat UI using list-of-dicts format required by Gradio 6.0 Chatbot
-    history.append({"role": "user", "content": query})
-    history.append({"role": "assistant", "content": final_answer})
+    # Update Chat UI using the format corresponding to the Gradio version
+    if is_gradio_v5_or_v6:
+        history.append({"role": "user", "content": query})
+        history.append({"role": "assistant", "content": final_answer})
+    else:
+        history.append([query, final_answer])
     
     # Log query-response details
     sources_log_list = [f"{src} (Page {pg})" for src, pg in contributing]
@@ -691,7 +713,11 @@ def generate_mock_answer(query, top_chunks, memories, personal_context="", syste
 # Gradio chatbot thumbs up/down callback
 def handle_like(x: gr.LikeData):
     msg_idx = x.index[0] if isinstance(x.index, (list, tuple)) else x.index
-    interaction_idx = msg_idx // 2
+    if is_gradio_v5_or_v6:
+        interaction_idx = msg_idx // 2
+    else:
+        interaction_idx = msg_idx
+        
     if interaction_idx < len(state.interaction_ids):
         uuid_str = state.interaction_ids[interaction_idx]
         feedback_value = "thumbs_up" if x.liked else "thumbs_down"
