@@ -529,6 +529,8 @@ def reset_memory_callback():
 
 # Real Groq call or clean mock LLM generator
 def generate_response(query, history, personal_context="", system_context=""):
+    if history is None:
+        history = []
     if not query.strip():
         return history, "", "### Retrieved RAG Chunks\n\n*No query entered.*", "### Retrieved FAISS Memory Chunks\n\n*No query entered.*"
         

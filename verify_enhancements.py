@@ -239,6 +239,21 @@ class TestHybridRAGActual(unittest.TestCase):
         self.assertIn("Errors occurred during ingestion", status_text_val)
         self.assertIn("empty.pdf", status_text_val)
 
+    def test_generate_response_handles_none_history(self):
+        # Reset state
+        app.state.reset()
+        # Call generate_response with history=None
+        history, query_out, docs_md, memories_md = app.generate_response(
+            query="test query", 
+            history=None, 
+            personal_context="", 
+            system_context=""
+        )
+        # Verify history was initialized to a list and the query/response was appended
+        self.assertIsNotNone(history)
+        self.assertIsInstance(history, list)
+        self.assertEqual(len(history), 2 if app.is_gradio_v5_or_v6 else 1)
+
 def run_verification_suite():
     print("======================================================================")
     print("      STARTING HYBRID RAG E2E TEST VERIFICATION SUITE                 ")
